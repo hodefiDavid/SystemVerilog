@@ -25,7 +25,7 @@ module top_module(
             D: next_state = (in)? B : C;
         endcase
     end
- 
+    
     assign out = (state == D)? 1'b1 : 1'b0;
 endmodule
 
