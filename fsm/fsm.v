@@ -41,24 +41,24 @@ reg [1:0] state, nstate;
 reg status, edit_mode ;
 
 always @*
-case (state )
-START : nstate = edit ? CREATE: REVIEW;
-REVIEW : nstate = !edit ? PUBLISH : REVIEW;
-CREATE : nstate = edit ? PUBLISH : CREATE;
-PUBLISH : nstate = START;
-endcase
+    case (state )
+        START : nstate = edit ? CREATE: REVIEW;
+        REVIEW : nstate = !edit ? PUBLISH : REVIEW;
+        CREATE : nstate = edit ? PUBLISH : CREATE;
+        PUBLISH : nstate = START;
+    endcase
 
 always @(posedge clock)
-if (reset)
-state <= START;
-else begin
+    if (reset)
+        state <= START;
+    else begin
 
 state <= nstate;
 
 case (nstate )
-REVIEW :{edit_mode ,status} <= 2'b00;
-CREATE :{edit_mode ,status} <= 2'b10;
-PUBLISH : status <= 1'b1;
+    REVIEW :{edit_mode ,status} <= 2'b00;
+    CREATE :{edit_mode ,status} <= 2'b10;
+    PUBLISH : status <= 1'b1;
 endcase
 
 end
