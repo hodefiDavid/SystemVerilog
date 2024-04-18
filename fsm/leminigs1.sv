@@ -37,7 +37,7 @@ module top_module(
                     walk_left = 1'b0;
                     walk_right = 1'b1;
                 end else if (bump_right) begin
-                    walk_left = 1'b1;
+                    walk_left =  1'b1;
                     walk_right = 1'b0;
                 end
             end
