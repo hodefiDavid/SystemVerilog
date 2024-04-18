@@ -12,7 +12,7 @@ module adder4b (input [3:0] A, input [3:0] B, output [4:0] Sum, input clk, input
 
 always @ (posedge clk or posedge rst) begin 
   if (rst) begin
-     Sum = 4'b00;
+     Sum = 4'b0;
   end else if(enable) begin
      Sum = A + B;
   end else begin
