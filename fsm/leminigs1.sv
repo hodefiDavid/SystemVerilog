@@ -49,3 +49,5 @@ module top_module(
     // assign walk_right = (state == ...);
 
 endmodule
+
+
