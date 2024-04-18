@@ -10,14 +10,18 @@
 
 module adder4b (input [3:0] A, input [3:0] B, output [4:0] Sum, input clk, input rst, input enable);
 
+    reg [4:0] internal_sum;
+
 always @ (posedge clk or posedge rst) begin 
-  if (rst) begin
-     Sum = 4'b0;
-  end else if(enable) begin
-     Sum = A + B;
-  end else begin
-     Sum = Sum;
-  end
+   if (rst) begin
+       internal_sum <= 5'b0;
+   end else if(enable) begin
+       internal_sum <= A + B;
+   end else begin
+       internal_sum <= Sum;
+   end
 end
-   
+
+assign Sum = internal_sum;
+    
 endmodule

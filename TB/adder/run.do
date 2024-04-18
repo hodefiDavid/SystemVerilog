@@ -2,7 +2,7 @@
 # for better user experience, create run.do file which will include the following lines.
 # run it from the library where your files in. the command is "do run.do" from Questa transcript. enjoy :)
 
-vlog adder.v 
+vlog adder4b.v 
 vlog adder4b_tb.v 
 vlog test_adder.v 
 

@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+!s12c _opt
+R0
+!s11f vlog 2023.4 2023.10, Oct  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/david/Documents/system_verilog_projects/codes/TB/adder
+T_opt
+!s110 1713456377
+V_=RP<1[m9Oi@z5Md5Ug_n2
+Z2 04 10 4 work test_adder fast 0
+=1-98fa9bd6aec7-662144f9-94-3fc8
+R0
+Z3 !s12f OEM100
+Z4 !s12b OEM100
+Z5 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2023.4;77
+R1
+T_opt1
+!s110 1713456458
+VFHWkLDX<5Tiz`od]TVZ`60
+R2
+=1-98fa9bd6aec7-6621454a-2b4-3814
+R0
+R3
+R4
+R5
+o-quiet -auto_acc_if_foreign -work work +acc
+R6
+n@_opt1
+R7
+vadder4b
+2C:/Users/david/Documents/system_verilog_projects/codes/TB/adder/adder4b.v
+Z8 !s110 1713456437
+!i10b 1
+!s100 BJAS3mcF=NUh6CL@J8Hl>2
+IcdAfo>^A9XehSkJN9HzXb0
+R1
+w1713456225
+8C:/Users/david/Documents/system_verilog_projects/codes/TB/adder/adder4b.v
+FC:/Users/david/Documents/system_verilog_projects/codes/TB/adder/adder4b.v
+!i122 7
+L0 11 17
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2023.4;77
+r1
+!s85 0
+31
+Z11 !s108 1713456437.000000
+!s107 C:/Users/david/Documents/system_verilog_projects/codes/TB/adder/adder4b.v|
+!s90 -reportprogress|300|-work|work|C:/Users/david/Documents/system_verilog_projects/codes/TB/adder/adder4b.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vadder4b_tb
+2C:/Users/david/Documents/system_verilog_projects/codes/TB/adder/adder4b_tb.v
+R8
+!i10b 1
+!s100 Dgkj2TQC0YM2G?Am0O7=73
+IXGZRcc=;z?^kaC0J7m3i81
+R1
+w1713456298
+8C:/Users/david/Documents/system_verilog_projects/codes/TB/adder/adder4b_tb.v
+FC:/Users/david/Documents/system_verilog_projects/codes/TB/adder/adder4b_tb.v
+!i122 8
+L0 2 23
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/david/Documents/system_verilog_projects/codes/TB/adder/adder4b_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/david/Documents/system_verilog_projects/codes/TB/adder/adder4b_tb.v|
+!i113 0
+R12
+R6
+vtest_adder
+2C:/Users/david/Documents/system_verilog_projects/codes/TB/adder/test_adder.v
+R8
+!i10b 1
+!s100 5QGMJ=;gEizN]]jEXZDbH1
+IW9L[2nehmdD:A8ITF9gNP0
+R1
+w1713455825
+8C:/Users/david/Documents/system_verilog_projects/codes/TB/adder/test_adder.v
+FC:/Users/david/Documents/system_verilog_projects/codes/TB/adder/test_adder.v
+!i122 9
+L0 11 102
+R9
+R10
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/david/Documents/system_verilog_projects/codes/TB/adder/test_adder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/david/Documents/system_verilog_projects/codes/TB/adder/test_adder.v|
+!i113 0
+R12
+R6

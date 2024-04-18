@@ -7,15 +7,17 @@ module adder4b_tb (
     input rst,
     input enable
 );
+    reg [4:0] internal_sum;
 
 always @(posedge clk or posedge rst) begin
     if (rst) begin
-        Ref_Sum = 5'b0;
+        internal_sum = 5'b0;
     end else if (enable) begin
-        Ref_Sum = A + B;
+        internal_sum = A + B;
     end else begin
-        Ref_Sum = Ref_Sum;
+        internal_sum = Ref_Sum;
     end
 end
+assign Ref_Sum = internal_sum;
 
 endmodule
