@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f vlog 2023.4 2023.10, Oct  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/david/Documents/system_verilog_projects/codes/adder_lab
+vadder
+2adder.sv|interface.sv
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1714559187
+!i10b 1
+!s100 ic6E>?e?G532eZz:KL6CQ3
+IQRbMXBcX^4`WUPbe>AMi12
+S1
+R0
+Z2 w1714550028
+8adder.sv
+Fadder.sv
+!i122 2
+L0 1 15
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2023.4;77
+r1
+!s85 0
+31
+Z5 !s108 1714559187.000000
+!s107 interface.sv|adder.sv|
+!s90 -reportprogress|300|-sv|adder.sv|interface.sv|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+Yinf
+R1
+!s110 1714559188
+!i10b 1
+!s100 lb<DDg:lMhSb;ef;Q5aMX0
+IH4JnJ8LZ^19LN=`S_Z;`_2
+S1
+R0
+R2
+8interface.sv
+Finterface.sv
+!i122 3
+L0 1 0
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 interface.sv|top.sv|
+!s90 -reportprogress|300|top.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
