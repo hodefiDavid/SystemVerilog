@@ -6,6 +6,7 @@ interface inf(input logic clk,rst);
   logic [3:0] b;
   logic [4:0] sum;
 
+
   modport DUT  (input clk, rst, enable, a, b, output sum);
   
 endinterface

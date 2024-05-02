@@ -1,0 +1,175 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/david/Documents/system_verilog_projects/codes/counter_lab
+vcounter
+2counter.sv|interface.sv
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1714630631
+!i10b 1
+!s100 7e4P5BY:<2YX4fT]FRP;P1
+IS@NIGb0Mm79@oiFl;g^9Z3
+S1
+R1
+w1714629869
+8counter.sv
+Fcounter.sv
+!i122 25
+L0 1 17
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.4;77
+r1
+!s85 0
+31
+Z6 !s108 1714630631.000000
+!s107 interface.sv|counter.sv|
+!s90 -reportprogress|300|-sv|counter.sv|interface.sv|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+Yinf
+Z8 2top.sv
+Z9 !s105 top_sv_unit
+Z10 DXx4 work 11 top_sv_unit 0 22 aGCPkF2NHHJYL@gVAHC7k0
+R2
+R3
+!i10b 1
+!s100 ;?_E^O>5B<:aD[9lQPSQ62
+IX4J^8IiU65iog=R3GLzkP0
+S1
+R1
+w1714568711
+8interface.sv
+Z11 Finterface.sv
+!i122 26
+Z12 L0 1 0
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z13 !s107 driver.sv|generator.sv|transaction.sv|environment.sv|random_test.sv|interface.sv|top.sv|
+Z14 !s90 -reportprogress|300|top.sv|
+!i113 0
+Z15 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+Topt_test
+!s11d top_sv_unit C:/Users/david/Documents/system_verilog_projects/codes/counter_lab/work 1 inf 1 C:/Users/david/Documents/system_verilog_projects/codes/counter_lab/work 
+!s110 1714630632
+V=:4=@GdU0T`8f5[bfd7Al2
+04 3 4 work top fast 0
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o+acc
+R7
+nopt_test
+OL;O;2023.4;77
+4test
+R8
+R2
+R10
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 9gDdA2M2``LLJk`Ui92fS2
+Id8GnMUKSRIm]P4T0:L5V]1
+R9
+S1
+R1
+w1714564399
+8random_test.sv
+Z16 Frandom_test.sv
+!i122 26
+L0 2 0
+R5
+31
+R6
+R13
+R14
+!i113 0
+R15
+R7
+vtop
+R8
+R2
+R10
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 :_1G<KIKgF5CQ9^Wk=j9F0
+I?93j^k:fE:5nGTo]B_^1X0
+R9
+S1
+R1
+w1714630431
+Z17 8top.sv
+Z18 Ftop.sv
+!i122 26
+L0 10 26
+R5
+31
+R6
+R13
+R14
+!i113 0
+R15
+R7
+Xtop_sv_unit
+R8
+!s115 inf
+R2
+R3
+VaGCPkF2NHHJYL@gVAHC7k0
+r1
+!s85 0
+!i10b 1
+!s100 =TU[YdCe9g3^V_5lYbPT`3
+IaGCPkF2NHHJYL@gVAHC7k0
+!i103 1
+S1
+R1
+w1714630597
+R17
+R18
+R11
+R16
+Fenvironment.sv
+Ftransaction.sv
+Fgenerator.sv
+Fdriver.sv
+!i122 26
+R12
+R5
+31
+R6
+R13
+R14
+!i113 0
+R15
+R7

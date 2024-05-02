@@ -1,7 +1,7 @@
 module event_example();
   event e1, e2, e3;
   
-  task process_A();
+    task process_A();
     #5;
     ->e1;
     $display("@%0t: process_A: event e1 is triggered", $time);

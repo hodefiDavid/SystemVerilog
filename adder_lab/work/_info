@@ -1,6 +1,10 @@
 m255
 K4
 z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
 !s11f vlog 2023.4 2023.10, Oct  9 2023
 13
 !s112 1.1
@@ -8,53 +12,156 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/david/Documents/system_verilog_projects/codes/adder_lab
+Z1 dC:/Users/david/Documents/system_verilog_projects/codes/adder_lab
 vadder
 2adder.sv|interface.sv
-Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-!s110 1714559187
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1714566402
 !i10b 1
 !s100 ic6E>?e?G532eZz:KL6CQ3
 IQRbMXBcX^4`WUPbe>AMi12
 S1
-R0
-Z2 w1714550028
+R1
+w1714561262
 8adder.sv
 Fadder.sv
-!i122 2
+!i122 12
 L0 1 15
-Z3 VDg1SIo80bB@j0V0VzS_@n1
-Z4 OL;L;2023.4;77
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.4;77
 r1
 !s85 0
 31
-Z5 !s108 1714559187.000000
+Z6 !s108 1714566402.000000
 !s107 interface.sv|adder.sv|
 !s90 -reportprogress|300|-sv|adder.sv|interface.sv|
 !i113 0
 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z6 tCvgOpt 0
+Z7 tCvgOpt 0
 Yinf
-R1
-!s110 1714559188
-!i10b 1
-!s100 lb<DDg:lMhSb;ef;Q5aMX0
-IH4JnJ8LZ^19LN=`S_Z;`_2
-S1
-R0
+Z8 2top.sv
+Z9 !s105 top_sv_unit
+Z10 DXx4 work 11 top_sv_unit 0 22 mGOZ5g=gDI]8iD[E54i2B1
 R2
+R3
+!i10b 1
+!s100 A330kzhlh5:FbJin7i_aE3
+IUVCjSOoULalF6kjli>Q313
+S1
+R1
+Z11 w1714566393
 8interface.sv
-Finterface.sv
-!i122 3
-L0 1 0
+Z12 Finterface.sv
+!i122 13
+Z13 L0 1 0
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z14 !s107 driver.sv|generator.sv|transaction.sv|environment.sv|random_test.sv|interface.sv|top.sv|
+Z15 !s90 -reportprogress|300|top.sv|
+!i113 0
+Z16 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+Topt_test
+!s11d top_sv_unit C:/Users/david/Documents/system_verilog_projects/codes/adder_lab/work 1 inf 1 C:/Users/david/Documents/system_verilog_projects/codes/adder_lab/work 
+!s110 1714566403
+V31Aj1N0=Obd7B1;MRDRLX3
+04 3 4 work top fast 0
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o+acc
+R7
+nopt_test
+OL;O;2023.4;77
+4test
+R8
+R2
+R10
 R3
 R4
 r1
 !s85 0
-31
+!i10b 1
+!s100 9gDdA2M2``LLJk`Ui92fS2
+Id8GnMUKSRIm]P4T0:L5V]1
+R9
+S1
+R1
+w1714564399
+8random_test.sv
+Z17 Frandom_test.sv
+!i122 13
+L0 2 0
 R5
-!s107 interface.sv|top.sv|
-!s90 -reportprogress|300|top.sv|
-!i113 0
-o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+31
 R6
+R14
+R15
+!i113 0
+R16
+R7
+vtop
+R8
+R2
+R10
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 koJBEL`ElfUYf>WYeb`Gj1
+IdcaFMzd4_@AKC^bkYaF8>2
+R9
+S1
+R1
+w1714561264
+Z18 8top.sv
+Z19 Ftop.sv
+!i122 13
+L0 10 26
+R5
+31
+R6
+R14
+R15
+!i113 0
+R16
+R7
+Xtop_sv_unit
+R8
+!s115 inf
+R2
+R3
+VmGOZ5g=gDI]8iD[E54i2B1
+r1
+!s85 0
+!i10b 1
+!s100 3`_mM0j=3cRUZOfHdoDUd3
+ImGOZ5g=gDI]8iD[E54i2B1
+!i103 1
+S1
+R1
+R11
+R18
+R19
+R12
+R17
+Fenvironment.sv
+Ftransaction.sv
+Fgenerator.sv
+Fdriver.sv
+!i122 13
+R13
+R5
+31
+R6
+R14
+R15
+!i113 0
+R16
+R7
