@@ -1,0 +1,12 @@
+Lab 2 on exporting SystemVerilog routines
+For Mastering Questa learning path, DPI chapter
+
+The SV code in test.v calls the context task c_testbench in c_tb.c,
+which calls the SystemVerilog tasks sv_mem_allocate(), sv_mem_read(), and
+sv_mem_write()
+
+Compile & run with:
+	% vsim -do "do run.do; run -all; quit"
+
+This works with Questa 10.6c on Linux and Windows, and probably eariler
+versions too. However, C debug is only available on Linux.

@@ -1,0 +1,1 @@
+vsim -coverage work.test_delta

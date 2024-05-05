@@ -1,0 +1,112 @@
+UVM_INFO ../../tb/sv/test_and_env/fpu_test_base.svh(48) @ 0: uvm_test_top [fpu_test_random_sequence] Master random number generator seeded with: 100
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 30000: uvm_test_top.environment.agent.monitor [request] a=0.000000e+00, b=-0.000000e+00, op=OP_DIV, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 390000: uvm_test_top.environment.agent.monitor [response] a=0.000000e+00, b=-0.000000e+00, op=OP_DIV, round=ROUND_ZERO, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 480000: uvm_test_top.environment.agent.monitor [request] a=-0.000000e+00, b=-0.000000e+00, op=OP_SUB, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 570000: uvm_test_top.environment.agent.monitor [response] a=-0.000000e+00, b=-0.000000e+00, op=OP_SUB, round=ROUND_ZERO, result = 0.000000e+00 with status =00100000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 740000: uvm_test_top.environment.agent.monitor [request] a=-0.000000e+00, b=-0.000000e+00, op=OP_MUL, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 880000: uvm_test_top.environment.agent.monitor [response] a=-0.000000e+00, b=-0.000000e+00, op=OP_MUL, round=ROUND_ZERO, result = 0.000000e+00 with status =00000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 880000: uvm_test_top.environment.agent.monitor [request] a=0.000000e+00, b=0.000000e+00, op=OP_DIV, round=ROUND_DOWN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 1240000: uvm_test_top.environment.agent.monitor [response] a=0.000000e+00, b=0.000000e+00, op=OP_DIV, round=ROUND_DOWN, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 1300000: uvm_test_top.environment.agent.monitor [request] a=0.000000e+00, b=-0.000000e+00, op=OP_ADD, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 1390000: uvm_test_top.environment.agent.monitor [response] a=0.000000e+00, b=-0.000000e+00, op=OP_ADD, round=ROUND_UP, result = 0.000000e+00 with status =00100000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 1510000: uvm_test_top.environment.agent.monitor [request] a=0.000000e+00, b=-1.#QNAN0e+00, op=OP_ADD, round=ROUND_EVEN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 1600000: uvm_test_top.environment.agent.monitor [response] a=0.000000e+00, b=-1.#QNAN0e+00, op=OP_ADD, round=ROUND_EVEN, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 1670000: uvm_test_top.environment.agent.monitor [request] a=2.790501e+23, b=-1.#QNAN0e+00, op=OP_DIV, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 2030000: uvm_test_top.environment.agent.monitor [response] a=2.790501e+23, b=-1.#QNAN0e+00, op=OP_DIV, round=ROUND_UP, result = -1.#IND00e+00 with status =01000011
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 2050000: uvm_test_top.environment.agent.monitor [request] a=2.599656e-21, b=-1.#INF00e+00, op=OP_SUB, round=ROUND_EVEN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 2140000: uvm_test_top.environment.agent.monitor [response] a=2.599656e-21, b=-1.#INF00e+00, op=OP_SUB, round=ROUND_EVEN, result = 1.#INF00e+00 with status =00010000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 2220000: uvm_test_top.environment.agent.monitor [request] a=-1.432209e-16, b=-1.#QNAN0e+00, op=OP_SUB, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 2310000: uvm_test_top.environment.agent.monitor [response] a=-1.432209e-16, b=-1.#QNAN0e+00, op=OP_SUB, round=ROUND_UP, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 2380000: uvm_test_top.environment.agent.monitor [request] a=-1.#QNAN0e+00, b=3.392011e-13, op=OP_SUB, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 2470000: uvm_test_top.environment.agent.monitor [response] a=-1.#QNAN0e+00, b=3.392011e-13, op=OP_SUB, round=ROUND_ZERO, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 2600000: uvm_test_top.environment.agent.monitor [request] a=0.000000e+00, b=-1.#QNAN0e+00, op=OP_MUL, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 2740000: uvm_test_top.environment.agent.monitor [response] a=0.000000e+00, b=-1.#QNAN0e+00, op=OP_MUL, round=ROUND_ZERO, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 2760000: uvm_test_top.environment.agent.monitor [request] a=-1.#INF00e+00, b=-1.#INF00e+00, op=OP_ADD, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 2850000: uvm_test_top.environment.agent.monitor [response] a=-1.#INF00e+00, b=-1.#INF00e+00, op=OP_ADD, round=ROUND_UP, result = -1.#INF00e+00 with status =00010000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 2940000: uvm_test_top.environment.agent.monitor [request] a=-0.000000e+00, b=5.544414e+11, op=OP_ADD, round=ROUND_DOWN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 3030000: uvm_test_top.environment.agent.monitor [response] a=-0.000000e+00, b=5.544414e+11, op=OP_ADD, round=ROUND_DOWN, result = 5.544414e+11 with status =00000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 3160000: uvm_test_top.environment.agent.monitor [request] a=-1.#QNAN0e+00, b=-9.731272e+18, op=OP_DIV, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 3520000: uvm_test_top.environment.agent.monitor [response] a=-1.#QNAN0e+00, b=-9.731272e+18, op=OP_DIV, round=ROUND_ZERO, result = -1.#IND00e+00 with status =01000011
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 3570000: uvm_test_top.environment.agent.monitor [request] a=-1.812976e+15, b=1.#INF00e+00, op=OP_ADD, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 3660000: uvm_test_top.environment.agent.monitor [response] a=-1.812976e+15, b=1.#INF00e+00, op=OP_ADD, round=ROUND_ZERO, result = 1.#INF00e+00 with status =00010000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 3670000: uvm_test_top.environment.agent.monitor [request] a=0.000000e+00, b=-0.000000e+00, op=OP_ADD, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 3760000: uvm_test_top.environment.agent.monitor [response] a=0.000000e+00, b=-0.000000e+00, op=OP_ADD, round=ROUND_UP, result = 0.000000e+00 with status =00100000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 3870000: uvm_test_top.environment.agent.monitor [request] a=-0.000000e+00, b=1.457932e+08, op=OP_ADD, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 3960000: uvm_test_top.environment.agent.monitor [response] a=-0.000000e+00, b=1.457932e+08, op=OP_ADD, round=ROUND_UP, result = 1.457932e+08 with status =00000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 3990000: uvm_test_top.environment.agent.monitor [request] a=-0.000000e+00, b=1.#INF00e+00, op=OP_MUL, round=ROUND_DOWN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 4130000: uvm_test_top.environment.agent.monitor [response] a=-0.000000e+00, b=1.#INF00e+00, op=OP_MUL, round=ROUND_DOWN, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 4200000: uvm_test_top.environment.agent.monitor [request] a=1.#QNAN0e+00, b=1.#QNAN0e+00, op=OP_ADD, round=ROUND_DOWN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 4290000: uvm_test_top.environment.agent.monitor [response] a=1.#QNAN0e+00, b=1.#QNAN0e+00, op=OP_ADD, round=ROUND_DOWN, result = 1.#QNAN0e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 4290000: uvm_test_top.environment.agent.monitor [request] a=-1.#QNAN0e+00, b=-2.411324e-24, op=OP_DIV, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 4650000: uvm_test_top.environment.agent.monitor [response] a=-1.#QNAN0e+00, b=-2.411324e-24, op=OP_DIV, round=ROUND_ZERO, result = -1.#IND00e+00 with status =01000011
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 4780000: uvm_test_top.environment.agent.monitor [request] a=-5.205095e-25, b=0.000000e+00, op=OP_ADD, round=ROUND_EVEN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 4870000: uvm_test_top.environment.agent.monitor [response] a=-5.205095e-25, b=0.000000e+00, op=OP_ADD, round=ROUND_EVEN, result = -5.205095e-25 with status =00000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 4930000: uvm_test_top.environment.agent.monitor [request] a=-0.000000e+00, b=-0.000000e+00, op=OP_ADD, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 5020000: uvm_test_top.environment.agent.monitor [response] a=-0.000000e+00, b=-0.000000e+00, op=OP_ADD, round=ROUND_ZERO, result = -0.000000e+00 with status =00100000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 5060000: uvm_test_top.environment.agent.monitor [request] a=1.435354e-05, b=0.000000e+00, op=OP_SUB, round=ROUND_EVEN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 5150000: uvm_test_top.environment.agent.monitor [response] a=1.435354e-05, b=0.000000e+00, op=OP_SUB, round=ROUND_EVEN, result = 1.435354e-05 with status =00000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 5160000: uvm_test_top.environment.agent.monitor [request] a=-1.#INF00e+00, b=-1.#QNAN0e+00, op=OP_DIV, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 5520000: uvm_test_top.environment.agent.monitor [response] a=-1.#INF00e+00, b=-1.#QNAN0e+00, op=OP_DIV, round=ROUND_UP, result = -1.#IND00e+00 with status =01000011
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 5600000: uvm_test_top.environment.agent.monitor [request] a=-1.#INF00e+00, b=-5.109066e+08, op=OP_MUL, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 5740000: uvm_test_top.environment.agent.monitor [response] a=-1.#INF00e+00, b=-5.109066e+08, op=OP_MUL, round=ROUND_UP, result = 1.#INF00e+00 with status =00010000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 5770000: uvm_test_top.environment.agent.monitor [request] a=-1.#QNAN0e+00, b=-1.#INF00e+00, op=OP_DIV, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 6130000: uvm_test_top.environment.agent.monitor [response] a=-1.#QNAN0e+00, b=-1.#INF00e+00, op=OP_DIV, round=ROUND_UP, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 6160000: uvm_test_top.environment.agent.monitor [request] a=-2.417755e-26, b=1.#INF00e+00, op=OP_MUL, round=ROUND_EVEN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 6300000: uvm_test_top.environment.agent.monitor [response] a=-2.417755e-26, b=1.#INF00e+00, op=OP_MUL, round=ROUND_EVEN, result = -1.#INF00e+00 with status =00010000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 6350000: uvm_test_top.environment.agent.monitor [request] a=1.039851e+20, b=0.000000e+00, op=OP_MUL, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 6490000: uvm_test_top.environment.agent.monitor [response] a=1.039851e+20, b=0.000000e+00, op=OP_MUL, round=ROUND_UP, result = 0.000000e+00 with status =00000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 6590000: uvm_test_top.environment.agent.monitor [request] a=7.814738e+30, b=-0.000000e+00, op=OP_DIV, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 6950000: uvm_test_top.environment.agent.monitor [response] a=7.814738e+30, b=-0.000000e+00, op=OP_DIV, round=ROUND_ZERO, result = -1.#INF00e+00 with status =00011000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 6980000: uvm_test_top.environment.agent.monitor [request] a=-1.#QNAN0e+00, b=-1.#QNAN0e+00, op=OP_ADD, round=ROUND_DOWN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 7070000: uvm_test_top.environment.agent.monitor [response] a=-1.#QNAN0e+00, b=-1.#QNAN0e+00, op=OP_ADD, round=ROUND_DOWN, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 7190000: uvm_test_top.environment.agent.monitor [request] a=-1.541785e+17, b=1.#QNAN0e+00, op=OP_MUL, round=ROUND_EVEN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 7330000: uvm_test_top.environment.agent.monitor [response] a=-1.541785e+17, b=1.#QNAN0e+00, op=OP_MUL, round=ROUND_EVEN, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 7410000: uvm_test_top.environment.agent.monitor [request] a=-1.#INF00e+00, b=-0.000000e+00, op=OP_SUB, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 7500000: uvm_test_top.environment.agent.monitor [response] a=-1.#INF00e+00, b=-0.000000e+00, op=OP_SUB, round=ROUND_ZERO, result = -1.#INF00e+00 with status =00010000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 7500000: uvm_test_top.environment.agent.monitor [request] a=-0.000000e+00, b=1.#INF00e+00, op=OP_ADD, round=ROUND_EVEN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 7590000: uvm_test_top.environment.agent.monitor [response] a=-0.000000e+00, b=1.#INF00e+00, op=OP_ADD, round=ROUND_EVEN, result = 1.#INF00e+00 with status =00010000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 7610000: uvm_test_top.environment.agent.monitor [request] a=3.685371e+22, b=0.000000e+00, op=OP_MUL, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 7750000: uvm_test_top.environment.agent.monitor [response] a=3.685371e+22, b=0.000000e+00, op=OP_MUL, round=ROUND_ZERO, result = 0.000000e+00 with status =00000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 7860000: uvm_test_top.environment.agent.monitor [request] a=-1.#QNAN0e+00, b=-0.000000e+00, op=OP_SUB, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 7950000: uvm_test_top.environment.agent.monitor [response] a=-1.#QNAN0e+00, b=-0.000000e+00, op=OP_SUB, round=ROUND_ZERO, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 8010000: uvm_test_top.environment.agent.monitor [request] a=1.#INF00e+00, b=-5.920349e-02, op=OP_SUB, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 8100000: uvm_test_top.environment.agent.monitor [response] a=1.#INF00e+00, b=-5.920349e-02, op=OP_SUB, round=ROUND_UP, result = 1.#INF00e+00 with status =00010000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 8270000: uvm_test_top.environment.agent.monitor [request] a=-0.000000e+00, b=1.#INF00e+00, op=OP_DIV, round=ROUND_DOWN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 8630000: uvm_test_top.environment.agent.monitor [response] a=-0.000000e+00, b=1.#INF00e+00, op=OP_DIV, round=ROUND_DOWN, result = -1.#INF00e+00 with status =00010000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 8640000: uvm_test_top.environment.agent.monitor [request] a=1.#QNAN0e+00, b=1.#QNAN0e+00, op=OP_MUL, round=ROUND_DOWN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 8780000: uvm_test_top.environment.agent.monitor [response] a=1.#QNAN0e+00, b=1.#QNAN0e+00, op=OP_MUL, round=ROUND_DOWN, result = 1.#QNAN0e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 8820000: uvm_test_top.environment.agent.monitor [request] a=-1.#INF00e+00, b=-1.#INF00e+00, op=OP_SUB, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 8910000: uvm_test_top.environment.agent.monitor [response] a=-1.#INF00e+00, b=-1.#INF00e+00, op=OP_SUB, round=ROUND_ZERO, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 9060000: uvm_test_top.environment.agent.monitor [request] a=-0.000000e+00, b=1.#QNAN0e+00, op=OP_DIV, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 9420000: uvm_test_top.environment.agent.monitor [response] a=-0.000000e+00, b=1.#QNAN0e+00, op=OP_DIV, round=ROUND_ZERO, result = -1.#IND00e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 9430000: uvm_test_top.environment.agent.monitor [request] a=5.689980e+31, b=-0.000000e+00, op=OP_SQR, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 9790000: uvm_test_top.environment.agent.monitor [response] a=5.689980e+31, b=-0.000000e+00, op=OP_SQR, round=ROUND_ZERO, result = 7.543195e+15 with status =00000001
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 9900000: uvm_test_top.environment.agent.monitor [request] a=-1.#INF00e+00, b=-4.541599e-17, op=OP_ADD, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 9990000: uvm_test_top.environment.agent.monitor [response] a=-1.#INF00e+00, b=-4.541599e-17, op=OP_ADD, round=ROUND_ZERO, result = -1.#INF00e+00 with status =00010000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 10130000: uvm_test_top.environment.agent.monitor [request] a=-1.#INF00e+00, b=3.475880e+27, op=OP_MUL, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 10270000: uvm_test_top.environment.agent.monitor [response] a=-1.#INF00e+00, b=3.475880e+27, op=OP_MUL, round=ROUND_ZERO, result = -1.#INF00e+00 with status =00010000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 10330000: uvm_test_top.environment.agent.monitor [request] a=-0.000000e+00, b=5.543651e+31, op=OP_SUB, round=ROUND_EVEN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 10420000: uvm_test_top.environment.agent.monitor [response] a=-0.000000e+00, b=5.543651e+31, op=OP_SUB, round=ROUND_EVEN, result = -5.543651e+31 with status =00000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 10420000: uvm_test_top.environment.agent.monitor [request] a=-0.000000e+00, b=-0.000000e+00, op=OP_MUL, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 10560000: uvm_test_top.environment.agent.monitor [response] a=-0.000000e+00, b=-0.000000e+00, op=OP_MUL, round=ROUND_ZERO, result = 0.000000e+00 with status =00000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 10570000: uvm_test_top.environment.agent.monitor [request] a=-1.#QNAN0e+00, b=-6.224874e-27, op=OP_DIV, round=ROUND_DOWN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 10930000: uvm_test_top.environment.agent.monitor [response] a=-1.#QNAN0e+00, b=-6.224874e-27, op=OP_DIV, round=ROUND_DOWN, result = -1.#IND00e+00 with status =01000011
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 11050000: uvm_test_top.environment.agent.monitor [request] a=1.#QNAN0e+00, b=-1.#QNAN0e+00, op=OP_SUB, round=ROUND_EVEN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 11140000: uvm_test_top.environment.agent.monitor [response] a=1.#QNAN0e+00, b=-1.#QNAN0e+00, op=OP_SUB, round=ROUND_EVEN, result = 1.#QNAN0e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 11210000: uvm_test_top.environment.agent.monitor [request] a=-1.432583e-09, b=-1.383215e-23, op=OP_MUL, round=ROUND_EVEN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 11350000: uvm_test_top.environment.agent.monitor [response] a=-1.432583e-09, b=-1.383215e-23, op=OP_MUL, round=ROUND_EVEN, result = 0.000000e+00 with status =00000000
+UVM_ERROR ../../tb/sv/analysis/fpu_comparator.svh(51) @ 11350000: uvm_test_top.environment.scoreboard.comparator [fpu_comparator] Comparator Mismatch: DUT response a=-1.432583e-09, b=-1.383215e-23, op=OP_MUL, round=ROUND_EVEN, result = 0.000000e+00 with status =00000000, differs from REF-model response a=-1.432583e-09, b=-1.383215e-23, op=OP_MUL, round=ROUND_EVEN, result = 1.981570e-32 with status =00000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 11420000: uvm_test_top.environment.agent.monitor [request] a=0.000000e+00, b=1.#QNAN0e+00, op=OP_SUB, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 11510000: uvm_test_top.environment.agent.monitor [response] a=0.000000e+00, b=1.#QNAN0e+00, op=OP_SUB, round=ROUND_UP, result = 1.#QNAN0e+00 with status =01000000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 11660000: uvm_test_top.environment.agent.monitor [request] a=-9.750194e-24, b=6.905602e+00, op=OP_ADD, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 11750000: uvm_test_top.environment.agent.monitor [response] a=-9.750194e-24, b=6.905602e+00, op=OP_ADD, round=ROUND_UP, result = 6.905602e+00 with status =00000001
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 11870000: uvm_test_top.environment.agent.monitor [request] a=1.960778e-31, b=-1.293271e-26, op=OP_ADD, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 11960000: uvm_test_top.environment.agent.monitor [response] a=1.960778e-31, b=-1.293271e-26, op=OP_ADD, round=ROUND_ZERO, result = -1.293252e-26 with status =00000001
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 12130000: uvm_test_top.environment.agent.monitor [request] a=1.534088e-34, b=-1.355920e+19, op=OP_SUB, round=ROUND_DOWN
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 12220000: uvm_test_top.environment.agent.monitor [response] a=1.534088e-34, b=-1.355920e+19, op=OP_SUB, round=ROUND_DOWN, result = 1.355920e+19 with status =00000001
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 12260000: uvm_test_top.environment.agent.monitor [request] a=0.000000e+00, b=-0.000000e+00, op=OP_ADD, round=ROUND_UP
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(101) @ 12350000: uvm_test_top.environment.agent.monitor [response] a=0.000000e+00, b=-0.000000e+00, op=OP_ADD, round=ROUND_UP, result = 0.000000e+00 with status =00100000
+UVM_INFO ../../tb/sv/fpu_agent/fpu_monitor_base.svh(51) @ 12430000: uvm_test_top.environment.agent.monitor [request] a=-1.746374e+34, b=1.#QNAN0e+00, op=OP_ADD, round=ROUND_ZERO
+UVM_INFO ../../tb/sv/test_and_env/fpu_test_random_sequence.svh(35) @ 12510001: uvm_test_top [fpu_test_random_sequence] Stopping test...
+UVM_INFO ../../tb/sv/fpu_agent/fpu_coverage.svh(200) @ 12510001: uvm_test_top.environment.agent.coverage [report]         97 percent covered
+UVM_ERROR ../../tb/sv/test_and_env/fpu_test_base.svh(134) @ 12510001: uvm_test_top [fpu_test_random_sequence] Test Results: Failed with 1 error(s)

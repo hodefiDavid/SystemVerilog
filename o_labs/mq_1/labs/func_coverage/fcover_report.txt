@@ -1,0 +1,669 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /env_pkg
+=== Design Unit: work.env_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses         17        na        na        na
+            Covergroup Bins         80        80         0   100.00%
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               Cover Testname                    Cover Time 
+                                                                                                                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+ TYPE /env_pkg/Scoreboard/hammering                   100.00%        100          -    Covered                                                           
+    covered/total bins:                                    80         80          -                                                                   
+    missing/total bins:                                     0         80          -                                                                   
+    % Hit:                                            100.00%        100          -                                                                   
+    Coverpoint s                                      100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin auto[0]                                        62          1          -    Covered              (Current Test)                      102050ns 
+        bin auto[1]                                        75          1          -    Covered              (Current Test)                      226750ns 
+        bin auto[2]                                        56          1          -    Covered              (Current Test)                       34050ns 
+        bin auto[3]                                        57          1          -    Covered              (Current Test)                       47550ns 
+        bin auto[4]                                        78          1          -    Covered              (Current Test)                      114750ns 
+        bin auto[5]                                        94          1          -    Covered              (Current Test)                       37250ns 
+        bin auto[6]                                        71          1          -    Covered              (Current Test)                      148250ns 
+        bin auto[7]                                        93          1          -    Covered              (Current Test)                        7050ns 
+    Coverpoint d0                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d0                                             66          1          -    Covered              (Current Test)                        7050ns 
+    Coverpoint d1                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d1                                             60          1          -    Covered              (Current Test)                      233950ns 
+    Coverpoint d2                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d2                                             71          1          -    Covered              (Current Test)                      436350ns 
+    Coverpoint d3                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d3                                            119          1          -    Covered              (Current Test)                      681450ns 
+    Coverpoint d4                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d4                                             67          1          -    Covered              (Current Test)                     1099650ns 
+    Coverpoint d5                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d5                                             46          1          -    Covered              (Current Test)                     1331550ns 
+    Coverpoint d6                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d6                                             87          1          -    Covered              (Current Test)                     1483250ns 
+    Coverpoint d7                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d7                                             70          1          -    Covered              (Current Test)                     1796450ns 
+    Cross s_d0                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d0>                               18          1          -    Covered              (Current Test)                        7050ns 
+            bin <auto[6],d0>                                2          1          -    Covered              (Current Test)                      148250ns 
+            bin <auto[5],d0>                               20          1          -    Covered              (Current Test)                       37250ns 
+            bin <auto[4],d0>                               10          1          -    Covered              (Current Test)                      114750ns 
+            bin <auto[3],d0>                                7          1          -    Covered              (Current Test)                       47550ns 
+            bin <auto[2],d0>                                1          1          -    Covered              (Current Test)                       34050ns 
+            bin <auto[1],d0>                                2          1          -    Covered              (Current Test)                      226750ns 
+            bin <auto[0],d0>                                6          1          -    Covered              (Current Test)                      102050ns 
+    Cross s_d1                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d1>                               12          1          -    Covered              (Current Test)                      358350ns 
+            bin <auto[6],d1>                                4          1          -    Covered              (Current Test)                      421250ns 
+            bin <auto[5],d1>                                9          1          -    Covered              (Current Test)                      324450ns 
+            bin <auto[4],d1>                                6          1          -    Covered              (Current Test)                      266350ns 
+            bin <auto[3],d1>                                4          1          -    Covered              (Current Test)                      290950ns 
+            bin <auto[2],d1>                               11          1          -    Covered              (Current Test)                      233950ns 
+            bin <auto[1],d1>                                7          1          -    Covered              (Current Test)                      300550ns 
+            bin <auto[0],d1>                                7          1          -    Covered              (Current Test)                      276650ns 
+    Cross s_d2                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d2>                               12          1          -    Covered              (Current Test)                      479550ns 
+            bin <auto[6],d2>                                4          1          -    Covered              (Current Test)                      445150ns 
+            bin <auto[5],d2>                                9          1          -    Covered              (Current Test)                      504150ns 
+            bin <auto[4],d2>                                8          1          -    Covered              (Current Test)                      559850ns 
+            bin <auto[3],d2>                               11          1          -    Covered              (Current Test)                      530750ns 
+            bin <auto[2],d2>                               12          1          -    Covered              (Current Test)                      446250ns 
+            bin <auto[1],d2>                               10          1          -    Covered              (Current Test)                      436350ns 
+            bin <auto[0],d2>                                5          1          -    Covered              (Current Test)                      666250ns 
+    Cross s_d3                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d3>                               17          1          -    Covered              (Current Test)                      787650ns 
+            bin <auto[6],d3>                               17          1          -    Covered              (Current Test)                      728550ns 
+            bin <auto[5],d3>                               24          1          -    Covered              (Current Test)                      688550ns 
+            bin <auto[4],d3>                               26          1          -    Covered              (Current Test)                      681450ns 
+            bin <auto[3],d3>                               14          1          -    Covered              (Current Test)                      912150ns 
+            bin <auto[2],d3>                                2          1          -    Covered              (Current Test)                     1092050ns 
+            bin <auto[1],d3>                               15          1          -    Covered              (Current Test)                      767850ns 
+            bin <auto[0],d3>                                4          1          -    Covered              (Current Test)                      704050ns 
+    Cross s_d4                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d4>                                8          1          -    Covered              (Current Test)                     1148550ns 
+            bin <auto[6],d4>                               18          1          -    Covered              (Current Test)                     1099650ns 
+            bin <auto[5],d4>                               12          1          -    Covered              (Current Test)                     1132550ns 
+            bin <auto[4],d4>                                5          1          -    Covered              (Current Test)                     1284150ns 
+            bin <auto[3],d4>                                2          1          -    Covered              (Current Test)                     1322750ns 
+            bin <auto[2],d4>                                7          1          -    Covered              (Current Test)                     1108350ns 
+            bin <auto[1],d4>                                7          1          -    Covered              (Current Test)                     1124950ns 
+            bin <auto[0],d4>                                8          1          -    Covered              (Current Test)                     1190150ns 
+    Cross s_d5                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d5>                                4          1          -    Covered              (Current Test)                     1365250ns 
+            bin <auto[6],d5>                                5          1          -    Covered              (Current Test)                     1369250ns 
+            bin <auto[5],d5>                               13          1          -    Covered              (Current Test)                     1362150ns 
+            bin <auto[4],d5>                                2          1          -    Covered              (Current Test)                     1416050ns 
+            bin <auto[3],d5>                                1          1          -    Covered              (Current Test)                     1469050ns 
+            bin <auto[2],d5>                                5          1          -    Covered              (Current Test)                     1368050ns 
+            bin <auto[1],d5>                                2          1          -    Covered              (Current Test)                     1357750ns 
+            bin <auto[0],d5>                               14          1          -    Covered              (Current Test)                     1331550ns 
+    Cross s_d6                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d6>                               21          1          -    Covered              (Current Test)                     1487250ns 
+            bin <auto[6],d6>                                3          1          -    Covered              (Current Test)                     1507350ns 
+            bin <auto[5],d6>                                3          1          -    Covered              (Current Test)                     1630050ns 
+            bin <auto[4],d6>                               14          1          -    Covered              (Current Test)                     1666250ns 
+            bin <auto[3],d6>                                3          1          -    Covered              (Current Test)                     1787750ns 
+            bin <auto[2],d6>                               13          1          -    Covered              (Current Test)                     1518450ns 
+            bin <auto[1],d6>                               20          1          -    Covered              (Current Test)                     1483250ns 
+            bin <auto[0],d6>                               10          1          -    Covered              (Current Test)                     1521650ns 
+    Cross s_d7                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d7>                                1          1          -    Covered              (Current Test)                     2043850ns 
+            bin <auto[6],d7>                               18          1          -    Covered              (Current Test)                     1796450ns 
+            bin <auto[5],d7>                                4          1          -    Covered              (Current Test)                     2029950ns 
+            bin <auto[4],d7>                                7          1          -    Covered              (Current Test)                     1926750ns 
+            bin <auto[3],d7>                               15          1          -    Covered              (Current Test)                     1817150ns 
+            bin <auto[2],d7>                                5          1          -    Covered              (Current Test)                     1899650ns 
+            bin <auto[1],d7>                               12          1          -    Covered              (Current Test)                     1972650ns 
+            bin <auto[0],d7>                                8          1          -    Covered              (Current Test)                     1847650ns 
+ Covergroup instance \/env_pkg::Scoreboard::hammering  
+                                                      100.00%        100          -    Covered                                                           
+    covered/total bins:                                    80         80          -                                                                   
+    missing/total bins:                                     0         80          -                                                                   
+    % Hit:                                            100.00%        100          -                                                                   
+    Coverpoint s                                      100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin auto[0]                                        62          1          -    Covered              (Current Test)                      102050ns 
+        bin auto[1]                                        75          1          -    Covered              (Current Test)                      226750ns 
+        bin auto[2]                                        56          1          -    Covered              (Current Test)                       34050ns 
+        bin auto[3]                                        57          1          -    Covered              (Current Test)                       47550ns 
+        bin auto[4]                                        78          1          -    Covered              (Current Test)                      114750ns 
+        bin auto[5]                                        94          1          -    Covered              (Current Test)                       37250ns 
+        bin auto[6]                                        71          1          -    Covered              (Current Test)                      148250ns 
+        bin auto[7]                                        93          1          -    Covered              (Current Test)                        7050ns 
+    Coverpoint d0                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d0                                             66          1          -    Covered              (Current Test)                        7050ns 
+    Coverpoint d1                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d1                                             60          1          -    Covered              (Current Test)                      233950ns 
+    Coverpoint d2                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d2                                             71          1          -    Covered              (Current Test)                      436350ns 
+    Coverpoint d3                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d3                                            119          1          -    Covered              (Current Test)                      681450ns 
+    Coverpoint d4                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d4                                             67          1          -    Covered              (Current Test)                     1099650ns 
+    Coverpoint d5                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d5                                             46          1          -    Covered              (Current Test)                     1331550ns 
+    Coverpoint d6                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d6                                             87          1          -    Covered              (Current Test)                     1483250ns 
+    Coverpoint d7                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d7                                             70          1          -    Covered              (Current Test)                     1796450ns 
+    Cross s_d0                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d0>                               18          1          -    Covered              (Current Test)                        7050ns 
+            bin <auto[6],d0>                                2          1          -    Covered              (Current Test)                      148250ns 
+            bin <auto[5],d0>                               20          1          -    Covered              (Current Test)                       37250ns 
+            bin <auto[4],d0>                               10          1          -    Covered              (Current Test)                      114750ns 
+            bin <auto[3],d0>                                7          1          -    Covered              (Current Test)                       47550ns 
+            bin <auto[2],d0>                                1          1          -    Covered              (Current Test)                       34050ns 
+            bin <auto[1],d0>                                2          1          -    Covered              (Current Test)                      226750ns 
+            bin <auto[0],d0>                                6          1          -    Covered              (Current Test)                      102050ns 
+    Cross s_d1                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d1>                               12          1          -    Covered              (Current Test)                      358350ns 
+            bin <auto[6],d1>                                4          1          -    Covered              (Current Test)                      421250ns 
+            bin <auto[5],d1>                                9          1          -    Covered              (Current Test)                      324450ns 
+            bin <auto[4],d1>                                6          1          -    Covered              (Current Test)                      266350ns 
+            bin <auto[3],d1>                                4          1          -    Covered              (Current Test)                      290950ns 
+            bin <auto[2],d1>                               11          1          -    Covered              (Current Test)                      233950ns 
+            bin <auto[1],d1>                                7          1          -    Covered              (Current Test)                      300550ns 
+            bin <auto[0],d1>                                7          1          -    Covered              (Current Test)                      276650ns 
+    Cross s_d2                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d2>                               12          1          -    Covered              (Current Test)                      479550ns 
+            bin <auto[6],d2>                                4          1          -    Covered              (Current Test)                      445150ns 
+            bin <auto[5],d2>                                9          1          -    Covered              (Current Test)                      504150ns 
+            bin <auto[4],d2>                                8          1          -    Covered              (Current Test)                      559850ns 
+            bin <auto[3],d2>                               11          1          -    Covered              (Current Test)                      530750ns 
+            bin <auto[2],d2>                               12          1          -    Covered              (Current Test)                      446250ns 
+            bin <auto[1],d2>                               10          1          -    Covered              (Current Test)                      436350ns 
+            bin <auto[0],d2>                                5          1          -    Covered              (Current Test)                      666250ns 
+    Cross s_d3                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d3>                               17          1          -    Covered              (Current Test)                      787650ns 
+            bin <auto[6],d3>                               17          1          -    Covered              (Current Test)                      728550ns 
+            bin <auto[5],d3>                               24          1          -    Covered              (Current Test)                      688550ns 
+            bin <auto[4],d3>                               26          1          -    Covered              (Current Test)                      681450ns 
+            bin <auto[3],d3>                               14          1          -    Covered              (Current Test)                      912150ns 
+            bin <auto[2],d3>                                2          1          -    Covered              (Current Test)                     1092050ns 
+            bin <auto[1],d3>                               15          1          -    Covered              (Current Test)                      767850ns 
+            bin <auto[0],d3>                                4          1          -    Covered              (Current Test)                      704050ns 
+    Cross s_d4                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d4>                                8          1          -    Covered              (Current Test)                     1148550ns 
+            bin <auto[6],d4>                               18          1          -    Covered              (Current Test)                     1099650ns 
+            bin <auto[5],d4>                               12          1          -    Covered              (Current Test)                     1132550ns 
+            bin <auto[4],d4>                                5          1          -    Covered              (Current Test)                     1284150ns 
+            bin <auto[3],d4>                                2          1          -    Covered              (Current Test)                     1322750ns 
+            bin <auto[2],d4>                                7          1          -    Covered              (Current Test)                     1108350ns 
+            bin <auto[1],d4>                                7          1          -    Covered              (Current Test)                     1124950ns 
+            bin <auto[0],d4>                                8          1          -    Covered              (Current Test)                     1190150ns 
+    Cross s_d5                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d5>                                4          1          -    Covered              (Current Test)                     1365250ns 
+            bin <auto[6],d5>                                5          1          -    Covered              (Current Test)                     1369250ns 
+            bin <auto[5],d5>                               13          1          -    Covered              (Current Test)                     1362150ns 
+            bin <auto[4],d5>                                2          1          -    Covered              (Current Test)                     1416050ns 
+            bin <auto[3],d5>                                1          1          -    Covered              (Current Test)                     1469050ns 
+            bin <auto[2],d5>                                5          1          -    Covered              (Current Test)                     1368050ns 
+            bin <auto[1],d5>                                2          1          -    Covered              (Current Test)                     1357750ns 
+            bin <auto[0],d5>                               14          1          -    Covered              (Current Test)                     1331550ns 
+    Cross s_d6                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d6>                               21          1          -    Covered              (Current Test)                     1487250ns 
+            bin <auto[6],d6>                                3          1          -    Covered              (Current Test)                     1507350ns 
+            bin <auto[5],d6>                                3          1          -    Covered              (Current Test)                     1630050ns 
+            bin <auto[4],d6>                               14          1          -    Covered              (Current Test)                     1666250ns 
+            bin <auto[3],d6>                                3          1          -    Covered              (Current Test)                     1787750ns 
+            bin <auto[2],d6>                               13          1          -    Covered              (Current Test)                     1518450ns 
+            bin <auto[1],d6>                               20          1          -    Covered              (Current Test)                     1483250ns 
+            bin <auto[0],d6>                               10          1          -    Covered              (Current Test)                     1521650ns 
+    Cross s_d7                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d7>                                1          1          -    Covered              (Current Test)                     2043850ns 
+            bin <auto[6],d7>                               18          1          -    Covered              (Current Test)                     1796450ns 
+            bin <auto[5],d7>                                4          1          -    Covered              (Current Test)                     2029950ns 
+            bin <auto[4],d7>                                7          1          -    Covered              (Current Test)                     1926750ns 
+            bin <auto[3],d7>                               15          1          -    Covered              (Current Test)                     1817150ns 
+            bin <auto[2],d7>                                5          1          -    Covered              (Current Test)                     1899650ns 
+            bin <auto[1],d7>                               12          1          -    Covered              (Current Test)                     1972650ns 
+            bin <auto[0],d7>                                8          1          -    Covered              (Current Test)                     1847650ns 
+
+COVERGROUP COVERAGE:
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               Cover Testname                    Cover Time 
+                                                                                                                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+ TYPE /env_pkg/Scoreboard/hammering                   100.00%        100          -    Covered                                                           
+    covered/total bins:                                    80         80          -                                                                   
+    missing/total bins:                                     0         80          -                                                                   
+    % Hit:                                            100.00%        100          -                                                                   
+    Coverpoint s                                      100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin auto[0]                                        62          1          -    Covered              (Current Test)                      102050ns 
+        bin auto[1]                                        75          1          -    Covered              (Current Test)                      226750ns 
+        bin auto[2]                                        56          1          -    Covered              (Current Test)                       34050ns 
+        bin auto[3]                                        57          1          -    Covered              (Current Test)                       47550ns 
+        bin auto[4]                                        78          1          -    Covered              (Current Test)                      114750ns 
+        bin auto[5]                                        94          1          -    Covered              (Current Test)                       37250ns 
+        bin auto[6]                                        71          1          -    Covered              (Current Test)                      148250ns 
+        bin auto[7]                                        93          1          -    Covered              (Current Test)                        7050ns 
+    Coverpoint d0                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d0                                             66          1          -    Covered              (Current Test)                        7050ns 
+    Coverpoint d1                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d1                                             60          1          -    Covered              (Current Test)                      233950ns 
+    Coverpoint d2                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d2                                             71          1          -    Covered              (Current Test)                      436350ns 
+    Coverpoint d3                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d3                                            119          1          -    Covered              (Current Test)                      681450ns 
+    Coverpoint d4                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d4                                             67          1          -    Covered              (Current Test)                     1099650ns 
+    Coverpoint d5                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d5                                             46          1          -    Covered              (Current Test)                     1331550ns 
+    Coverpoint d6                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d6                                             87          1          -    Covered              (Current Test)                     1483250ns 
+    Coverpoint d7                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d7                                             70          1          -    Covered              (Current Test)                     1796450ns 
+    Cross s_d0                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d0>                               18          1          -    Covered              (Current Test)                        7050ns 
+            bin <auto[6],d0>                                2          1          -    Covered              (Current Test)                      148250ns 
+            bin <auto[5],d0>                               20          1          -    Covered              (Current Test)                       37250ns 
+            bin <auto[4],d0>                               10          1          -    Covered              (Current Test)                      114750ns 
+            bin <auto[3],d0>                                7          1          -    Covered              (Current Test)                       47550ns 
+            bin <auto[2],d0>                                1          1          -    Covered              (Current Test)                       34050ns 
+            bin <auto[1],d0>                                2          1          -    Covered              (Current Test)                      226750ns 
+            bin <auto[0],d0>                                6          1          -    Covered              (Current Test)                      102050ns 
+    Cross s_d1                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d1>                               12          1          -    Covered              (Current Test)                      358350ns 
+            bin <auto[6],d1>                                4          1          -    Covered              (Current Test)                      421250ns 
+            bin <auto[5],d1>                                9          1          -    Covered              (Current Test)                      324450ns 
+            bin <auto[4],d1>                                6          1          -    Covered              (Current Test)                      266350ns 
+            bin <auto[3],d1>                                4          1          -    Covered              (Current Test)                      290950ns 
+            bin <auto[2],d1>                               11          1          -    Covered              (Current Test)                      233950ns 
+            bin <auto[1],d1>                                7          1          -    Covered              (Current Test)                      300550ns 
+            bin <auto[0],d1>                                7          1          -    Covered              (Current Test)                      276650ns 
+    Cross s_d2                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d2>                               12          1          -    Covered              (Current Test)                      479550ns 
+            bin <auto[6],d2>                                4          1          -    Covered              (Current Test)                      445150ns 
+            bin <auto[5],d2>                                9          1          -    Covered              (Current Test)                      504150ns 
+            bin <auto[4],d2>                                8          1          -    Covered              (Current Test)                      559850ns 
+            bin <auto[3],d2>                               11          1          -    Covered              (Current Test)                      530750ns 
+            bin <auto[2],d2>                               12          1          -    Covered              (Current Test)                      446250ns 
+            bin <auto[1],d2>                               10          1          -    Covered              (Current Test)                      436350ns 
+            bin <auto[0],d2>                                5          1          -    Covered              (Current Test)                      666250ns 
+    Cross s_d3                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d3>                               17          1          -    Covered              (Current Test)                      787650ns 
+            bin <auto[6],d3>                               17          1          -    Covered              (Current Test)                      728550ns 
+            bin <auto[5],d3>                               24          1          -    Covered              (Current Test)                      688550ns 
+            bin <auto[4],d3>                               26          1          -    Covered              (Current Test)                      681450ns 
+            bin <auto[3],d3>                               14          1          -    Covered              (Current Test)                      912150ns 
+            bin <auto[2],d3>                                2          1          -    Covered              (Current Test)                     1092050ns 
+            bin <auto[1],d3>                               15          1          -    Covered              (Current Test)                      767850ns 
+            bin <auto[0],d3>                                4          1          -    Covered              (Current Test)                      704050ns 
+    Cross s_d4                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d4>                                8          1          -    Covered              (Current Test)                     1148550ns 
+            bin <auto[6],d4>                               18          1          -    Covered              (Current Test)                     1099650ns 
+            bin <auto[5],d4>                               12          1          -    Covered              (Current Test)                     1132550ns 
+            bin <auto[4],d4>                                5          1          -    Covered              (Current Test)                     1284150ns 
+            bin <auto[3],d4>                                2          1          -    Covered              (Current Test)                     1322750ns 
+            bin <auto[2],d4>                                7          1          -    Covered              (Current Test)                     1108350ns 
+            bin <auto[1],d4>                                7          1          -    Covered              (Current Test)                     1124950ns 
+            bin <auto[0],d4>                                8          1          -    Covered              (Current Test)                     1190150ns 
+    Cross s_d5                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d5>                                4          1          -    Covered              (Current Test)                     1365250ns 
+            bin <auto[6],d5>                                5          1          -    Covered              (Current Test)                     1369250ns 
+            bin <auto[5],d5>                               13          1          -    Covered              (Current Test)                     1362150ns 
+            bin <auto[4],d5>                                2          1          -    Covered              (Current Test)                     1416050ns 
+            bin <auto[3],d5>                                1          1          -    Covered              (Current Test)                     1469050ns 
+            bin <auto[2],d5>                                5          1          -    Covered              (Current Test)                     1368050ns 
+            bin <auto[1],d5>                                2          1          -    Covered              (Current Test)                     1357750ns 
+            bin <auto[0],d5>                               14          1          -    Covered              (Current Test)                     1331550ns 
+    Cross s_d6                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d6>                               21          1          -    Covered              (Current Test)                     1487250ns 
+            bin <auto[6],d6>                                3          1          -    Covered              (Current Test)                     1507350ns 
+            bin <auto[5],d6>                                3          1          -    Covered              (Current Test)                     1630050ns 
+            bin <auto[4],d6>                               14          1          -    Covered              (Current Test)                     1666250ns 
+            bin <auto[3],d6>                                3          1          -    Covered              (Current Test)                     1787750ns 
+            bin <auto[2],d6>                               13          1          -    Covered              (Current Test)                     1518450ns 
+            bin <auto[1],d6>                               20          1          -    Covered              (Current Test)                     1483250ns 
+            bin <auto[0],d6>                               10          1          -    Covered              (Current Test)                     1521650ns 
+    Cross s_d7                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d7>                                1          1          -    Covered              (Current Test)                     2043850ns 
+            bin <auto[6],d7>                               18          1          -    Covered              (Current Test)                     1796450ns 
+            bin <auto[5],d7>                                4          1          -    Covered              (Current Test)                     2029950ns 
+            bin <auto[4],d7>                                7          1          -    Covered              (Current Test)                     1926750ns 
+            bin <auto[3],d7>                               15          1          -    Covered              (Current Test)                     1817150ns 
+            bin <auto[2],d7>                                5          1          -    Covered              (Current Test)                     1899650ns 
+            bin <auto[1],d7>                               12          1          -    Covered              (Current Test)                     1972650ns 
+            bin <auto[0],d7>                                8          1          -    Covered              (Current Test)                     1847650ns 
+ Covergroup instance \/env_pkg::Scoreboard::hammering  
+                                                      100.00%        100          -    Covered                                                           
+    covered/total bins:                                    80         80          -                                                                   
+    missing/total bins:                                     0         80          -                                                                   
+    % Hit:                                            100.00%        100          -                                                                   
+    Coverpoint s                                      100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin auto[0]                                        62          1          -    Covered              (Current Test)                      102050ns 
+        bin auto[1]                                        75          1          -    Covered              (Current Test)                      226750ns 
+        bin auto[2]                                        56          1          -    Covered              (Current Test)                       34050ns 
+        bin auto[3]                                        57          1          -    Covered              (Current Test)                       47550ns 
+        bin auto[4]                                        78          1          -    Covered              (Current Test)                      114750ns 
+        bin auto[5]                                        94          1          -    Covered              (Current Test)                       37250ns 
+        bin auto[6]                                        71          1          -    Covered              (Current Test)                      148250ns 
+        bin auto[7]                                        93          1          -    Covered              (Current Test)                        7050ns 
+    Coverpoint d0                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d0                                             66          1          -    Covered              (Current Test)                        7050ns 
+    Coverpoint d1                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d1                                             60          1          -    Covered              (Current Test)                      233950ns 
+    Coverpoint d2                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d2                                             71          1          -    Covered              (Current Test)                      436350ns 
+    Coverpoint d3                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d3                                            119          1          -    Covered              (Current Test)                      681450ns 
+    Coverpoint d4                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d4                                             67          1          -    Covered              (Current Test)                     1099650ns 
+    Coverpoint d5                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d5                                             46          1          -    Covered              (Current Test)                     1331550ns 
+    Coverpoint d6                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d6                                             87          1          -    Covered              (Current Test)                     1483250ns 
+    Coverpoint d7                                     100.00%        100          -    Covered                                                           
+        covered/total bins:                                 1          1          -                                                                   
+        missing/total bins:                                 0          1          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        bin d7                                             70          1          -    Covered              (Current Test)                     1796450ns 
+    Cross s_d0                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d0>                               18          1          -    Covered              (Current Test)                        7050ns 
+            bin <auto[6],d0>                                2          1          -    Covered              (Current Test)                      148250ns 
+            bin <auto[5],d0>                               20          1          -    Covered              (Current Test)                       37250ns 
+            bin <auto[4],d0>                               10          1          -    Covered              (Current Test)                      114750ns 
+            bin <auto[3],d0>                                7          1          -    Covered              (Current Test)                       47550ns 
+            bin <auto[2],d0>                                1          1          -    Covered              (Current Test)                       34050ns 
+            bin <auto[1],d0>                                2          1          -    Covered              (Current Test)                      226750ns 
+            bin <auto[0],d0>                                6          1          -    Covered              (Current Test)                      102050ns 
+    Cross s_d1                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d1>                               12          1          -    Covered              (Current Test)                      358350ns 
+            bin <auto[6],d1>                                4          1          -    Covered              (Current Test)                      421250ns 
+            bin <auto[5],d1>                                9          1          -    Covered              (Current Test)                      324450ns 
+            bin <auto[4],d1>                                6          1          -    Covered              (Current Test)                      266350ns 
+            bin <auto[3],d1>                                4          1          -    Covered              (Current Test)                      290950ns 
+            bin <auto[2],d1>                               11          1          -    Covered              (Current Test)                      233950ns 
+            bin <auto[1],d1>                                7          1          -    Covered              (Current Test)                      300550ns 
+            bin <auto[0],d1>                                7          1          -    Covered              (Current Test)                      276650ns 
+    Cross s_d2                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d2>                               12          1          -    Covered              (Current Test)                      479550ns 
+            bin <auto[6],d2>                                4          1          -    Covered              (Current Test)                      445150ns 
+            bin <auto[5],d2>                                9          1          -    Covered              (Current Test)                      504150ns 
+            bin <auto[4],d2>                                8          1          -    Covered              (Current Test)                      559850ns 
+            bin <auto[3],d2>                               11          1          -    Covered              (Current Test)                      530750ns 
+            bin <auto[2],d2>                               12          1          -    Covered              (Current Test)                      446250ns 
+            bin <auto[1],d2>                               10          1          -    Covered              (Current Test)                      436350ns 
+            bin <auto[0],d2>                                5          1          -    Covered              (Current Test)                      666250ns 
+    Cross s_d3                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d3>                               17          1          -    Covered              (Current Test)                      787650ns 
+            bin <auto[6],d3>                               17          1          -    Covered              (Current Test)                      728550ns 
+            bin <auto[5],d3>                               24          1          -    Covered              (Current Test)                      688550ns 
+            bin <auto[4],d3>                               26          1          -    Covered              (Current Test)                      681450ns 
+            bin <auto[3],d3>                               14          1          -    Covered              (Current Test)                      912150ns 
+            bin <auto[2],d3>                                2          1          -    Covered              (Current Test)                     1092050ns 
+            bin <auto[1],d3>                               15          1          -    Covered              (Current Test)                      767850ns 
+            bin <auto[0],d3>                                4          1          -    Covered              (Current Test)                      704050ns 
+    Cross s_d4                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d4>                                8          1          -    Covered              (Current Test)                     1148550ns 
+            bin <auto[6],d4>                               18          1          -    Covered              (Current Test)                     1099650ns 
+            bin <auto[5],d4>                               12          1          -    Covered              (Current Test)                     1132550ns 
+            bin <auto[4],d4>                                5          1          -    Covered              (Current Test)                     1284150ns 
+            bin <auto[3],d4>                                2          1          -    Covered              (Current Test)                     1322750ns 
+            bin <auto[2],d4>                                7          1          -    Covered              (Current Test)                     1108350ns 
+            bin <auto[1],d4>                                7          1          -    Covered              (Current Test)                     1124950ns 
+            bin <auto[0],d4>                                8          1          -    Covered              (Current Test)                     1190150ns 
+    Cross s_d5                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d5>                                4          1          -    Covered              (Current Test)                     1365250ns 
+            bin <auto[6],d5>                                5          1          -    Covered              (Current Test)                     1369250ns 
+            bin <auto[5],d5>                               13          1          -    Covered              (Current Test)                     1362150ns 
+            bin <auto[4],d5>                                2          1          -    Covered              (Current Test)                     1416050ns 
+            bin <auto[3],d5>                                1          1          -    Covered              (Current Test)                     1469050ns 
+            bin <auto[2],d5>                                5          1          -    Covered              (Current Test)                     1368050ns 
+            bin <auto[1],d5>                                2          1          -    Covered              (Current Test)                     1357750ns 
+            bin <auto[0],d5>                               14          1          -    Covered              (Current Test)                     1331550ns 
+    Cross s_d6                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d6>                               21          1          -    Covered              (Current Test)                     1487250ns 
+            bin <auto[6],d6>                                3          1          -    Covered              (Current Test)                     1507350ns 
+            bin <auto[5],d6>                                3          1          -    Covered              (Current Test)                     1630050ns 
+            bin <auto[4],d6>                               14          1          -    Covered              (Current Test)                     1666250ns 
+            bin <auto[3],d6>                                3          1          -    Covered              (Current Test)                     1787750ns 
+            bin <auto[2],d6>                               13          1          -    Covered              (Current Test)                     1518450ns 
+            bin <auto[1],d6>                               20          1          -    Covered              (Current Test)                     1483250ns 
+            bin <auto[0],d6>                               10          1          -    Covered              (Current Test)                     1521650ns 
+    Cross s_d7                                        100.00%        100          -    Covered                                                           
+        covered/total bins:                                 8          8          -                                                                   
+        missing/total bins:                                 0          8          -                                                                   
+        % Hit:                                        100.00%        100          -                                                                   
+        Auto, Default and User Defined Bins:
+            bin <auto[7],d7>                                1          1          -    Covered              (Current Test)                     2043850ns 
+            bin <auto[6],d7>                               18          1          -    Covered              (Current Test)                     1796450ns 
+            bin <auto[5],d7>                                4          1          -    Covered              (Current Test)                     2029950ns 
+            bin <auto[4],d7>                                7          1          -    Covered              (Current Test)                     1926750ns 
+            bin <auto[3],d7>                               15          1          -    Covered              (Current Test)                     1817150ns 
+            bin <auto[2],d7>                                5          1          -    Covered              (Current Test)                     1899650ns 
+            bin <auto[1],d7>                               12          1          -    Covered              (Current Test)                     1972650ns 
+            bin <auto[0],d7>                                8          1          -    Covered              (Current Test)                     1847650ns 
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 100.00%
+
+

@@ -1,0 +1,16 @@
+../../fpu/rtl/vhdl/fpupack.vhd
+../../fpu/rtl/vhdl/comppack.vhd
+../../fpu/rtl/vhdl/addsub_28.vhd
+../../fpu/rtl/vhdl/fpu.vhd
+../../fpu/rtl/vhdl/mul_24.vhd
+../../fpu/rtl/vhdl/post_norm_addsub.vhd
+../../fpu/rtl/vhdl/post_norm_div.vhd
+../../fpu/rtl/vhdl/post_norm_mul.vhd
+../../fpu/rtl/vhdl/post_norm_sqrt.vhd
+../../fpu/rtl/vhdl/pre_norm_addsub.vhd
+../../fpu/rtl/vhdl/pre_norm_div.vhd
+../../fpu/rtl/vhdl/pre_norm_mul.vhd
+../../fpu/rtl/vhdl/pre_norm_sqrt.vhd
+../../fpu/rtl/vhdl/serial_div.vhd
+../../fpu/rtl/vhdl/serial_mul.vhd
+../../fpu/rtl/vhdl/sqrt.vhd

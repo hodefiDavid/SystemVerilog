@@ -13,6 +13,8 @@ R0
 R0
 R0
 R0
+R0
+R0
 !s11f MIXED_VERSIONS
 13
 !s112 1.1
@@ -24,7 +26,7 @@ Z1 dC:/Users/david/Documents/system_verilog_projects/codes/counter_lab
 vcounter
 2counter.sv|interface.sv
 Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1714630631
+Z3 !s110 1714640912
 !i10b 1
 !s100 7e4P5BY:<2YX4fT]FRP;P1
 IS@NIGb0Mm79@oiFl;g^9Z3
@@ -33,14 +35,14 @@ R1
 w1714629869
 8counter.sv
 Fcounter.sv
-!i122 25
+!i122 31
 L0 1 17
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 Z5 OL;L;2023.4;77
 r1
 !s85 0
 31
-Z6 !s108 1714630631.000000
+Z6 !s108 1714640912.000000
 !s107 interface.sv|counter.sv|
 !s90 -reportprogress|300|-sv|counter.sv|interface.sv|
 !i113 0
@@ -60,7 +62,7 @@ R1
 w1714568711
 8interface.sv
 Z11 Finterface.sv
-!i122 26
+!i122 32
 Z12 L0 1 0
 R4
 R5
@@ -73,19 +75,34 @@ Z14 !s90 -reportprogress|300|top.sv|
 !i113 0
 Z15 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R7
-Topt_test
-!s11d top_sv_unit C:/Users/david/Documents/system_verilog_projects/codes/counter_lab/work 1 inf 1 C:/Users/david/Documents/system_verilog_projects/codes/counter_lab/work 
-!s110 1714630632
-V=:4=@GdU0T`8f5[bfd7Al2
-04 3 4 work top fast 0
+Topt1
+Z16 !s11d top_sv_unit C:/Users/david/Documents/system_verilog_projects/codes/counter_lab/work 1 inf 1 C:/Users/david/Documents/system_verilog_projects/codes/counter_lab/work 
+!s110 1714650376
+VceXDleIbVJhJnS<3U90331
+Z17 04 3 4 work top fast 0
+!s102 -cover sb2
 R0
-!s12f OEM100
-!s12b OEM100
-!s124 OEM100
+Z18 !s12f OEM100
+Z19 !s12b OEM100
+Z20 !s124 OEM100
+o-cover sb2
+R7
+nopt1
+Z21 OL;O;2023.4;77
+Topt_test
+R16
+R3
+V4QSg@NW^8gcjTSJ92oH<D2
+R17
+R0
+R18
+R19
+R20
 o+acc
 R7
 nopt_test
-OL;O;2023.4;77
+R21
+R1
 4test
 R8
 R2
@@ -102,8 +119,8 @@ S1
 R1
 w1714564399
 8random_test.sv
-Z16 Frandom_test.sv
-!i122 26
+Z22 Frandom_test.sv
+!i122 32
 L0 2 0
 R5
 31
@@ -128,9 +145,9 @@ R9
 S1
 R1
 w1714630431
-Z17 8top.sv
-Z18 Ftop.sv
-!i122 26
+Z23 8top.sv
+Z24 Ftop.sv
+!i122 32
 L0 10 26
 R5
 31
@@ -155,15 +172,15 @@ IaGCPkF2NHHJYL@gVAHC7k0
 S1
 R1
 w1714630597
-R17
-R18
+R23
+R24
 R11
-R16
+R22
 Fenvironment.sv
 Ftransaction.sv
 Fgenerator.sv
 Fdriver.sv
-!i122 26
+!i122 32
 R12
 R5
 31

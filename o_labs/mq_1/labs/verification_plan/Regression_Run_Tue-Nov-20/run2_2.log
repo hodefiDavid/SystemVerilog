@@ -1,0 +1,150 @@
+# ----------------------------------------------------------------
+# AVM-3.0-update-2-MTI  (C) 2005-2007 Mentor Graphics Corporation
+# ----------------------------------------------------------------
+# ** MESSAGE: ../tb/sv/fpu_master.sv{140) @ 0: env.master [Master] master request: FPU Request: a=9.771293e-006, b=-1.#QNAN0e+000, op=OP_ADD, round = ROUND_UP
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{66) @ 15: env.driver [driver] Getting Request
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{69) @ 15: env.driver [driver] Issuing Request
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{51) @ 130: env.monitor [env.monitor] Getting Request
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{87) @ 130: env.monitor [monitor] request: FPU Request: a=9.771293e-006, b=-1.#QNAN0e+000, op=OP_ADD, round = ROUND_UP
+# ** MESSAGE: ../tb/sv/fpu_tlm_adapter.sv{51) @ 130: env.adapter [Adapter] master --> request: FPU Request: a=9.771293e-006, b=-1.#QNAN0e+000, op=OP_ADD, round = ROUND_UP
+# ** MESSAGE: ../tb/sv/fpu_tlm_dpi_c.sv{47) @ 130: env.TLM [tlm] TLM request: FPU Request: a=9.771293e-006, b=-1.#QNAN0e+000, op=OP_ADD, round = ROUND_UP
+# ** MESSAGE: ../tb/sv/fpu_tlm_dpi_c.sv{53) @ 130: env.TLM [tlm] TLM response: FPU Response: a=9.771293e-006, b=-1.#QNAN0e+000, op=OP_ADD, round = ROUND_UP, result = -1.#QNAN0e+000 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_tlm_adapter.sv{59) @ 130: env.adapter [Master] master <-- response: FPU Response: a=9.771293e-006, b=-1.#QNAN0e+000, op=OP_ADD, round = ROUND_UP, result = -1.#QNAN0e+000 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{74) @ 135: env.driver [driver] Waiting for Response
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{79) @ 210: env.driver [driver] Putting Response
+# ** MESSAGE: ../tb/sv/fpu_master.sv{147) @ 210: env.master [Master] master response: FPU Response: a=9.771293e-006, b=-1.#QNAN0e+000, op=OP_ADD, round = ROUND_UP, result = -1.#IND00e+000 with status =01000000
+# ** MESSAGE: ../tb/sv/fpu_master.sv{140) @ 210: env.master [Master] master request: FPU Request: a=1.#QNAN0e+000, b=2.060186e-031, op=OP_SQR, round = ROUND_EVEN
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{66) @ 220: env.driver [driver] Getting Request
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{69) @ 220: env.driver [driver] Issuing Request
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{57) @ 220: env.monitor [env.monitor] Getting Response
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{127) @ 220: env.monitor [env.monitor] response: FPU Response: a=9.771293e-006, b=-1.#QNAN0e+000, op=OP_ADD, round = ROUND_UP, result = -1.#IND00e+000 with status =01000000
+# ** MESSAGE: @ 220: env.comparator [Comparator Match] FPU Response: a=9.771293e-006, b=-1.#QNAN0e+000, op=OP_ADD, round = ROUND_UP, result = -1.#QNAN0e+000 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_coverage.sv{137) @ 220: env.coverage [env.coverage] cover respose: FPU Response: a=9.771293e-006, b=-1.#QNAN0e+000, op=OP_ADD, round = ROUND_UP, result = -1.#IND00e+000 with status =01000000
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{51) @ 310: env.monitor [env.monitor] Getting Request
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{87) @ 310: env.monitor [monitor] request: FPU Request: a=1.#QNAN0e+000, b=2.060186e-031, op=OP_SQR, round = ROUND_EVEN
+# ** MESSAGE: ../tb/sv/fpu_tlm_adapter.sv{51) @ 310: env.adapter [Adapter] master --> request: FPU Request: a=1.#QNAN0e+000, b=2.060186e-031, op=OP_SQR, round = ROUND_EVEN
+# ** MESSAGE: ../tb/sv/fpu_tlm_dpi_c.sv{47) @ 310: env.TLM [tlm] TLM request: FPU Request: a=1.#QNAN0e+000, b=2.060186e-031, op=OP_SQR, round = ROUND_EVEN
+# ** MESSAGE: ../tb/sv/fpu_tlm_dpi_c.sv{53) @ 310: env.TLM [tlm] TLM response: FPU Response: a=1.#QNAN0e+000, b=2.060186e-031, op=OP_SQR, round = ROUND_EVEN, result = 1.#QNAN0e+000 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_tlm_adapter.sv{59) @ 310: env.adapter [Master] master <-- response: FPU Response: a=1.#QNAN0e+000, b=2.060186e-031, op=OP_SQR, round = ROUND_EVEN, result = 1.#QNAN0e+000 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{74) @ 315: env.driver [driver] Waiting for Response
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{79) @ 660: env.driver [driver] Putting Response
+# ** MESSAGE: ../tb/sv/fpu_master.sv{147) @ 660: env.master [Master] master response: FPU Response: a=1.#QNAN0e+000, b=2.060186e-031, op=OP_SQR, round = ROUND_EVEN, result = 1.#QNAN0e+000 with status =01000000
+# ** MESSAGE: ../tb/sv/fpu_master.sv{140) @ 660: env.master [Master] master request: FPU Request: a=0.000000e+000, b=-2.143540e+008, op=OP_ADD, round = ROUND_EVEN
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{66) @ 670: env.driver [driver] Getting Request
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{69) @ 670: env.driver [driver] Issuing Request
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{57) @ 670: env.monitor [env.monitor] Getting Response
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{127) @ 670: env.monitor [env.monitor] response: FPU Response: a=1.#QNAN0e+000, b=2.060186e-031, op=OP_SQR, round = ROUND_EVEN, result = 1.#QNAN0e+000 with status =01000000
+# ** MESSAGE: @ 670: env.comparator [Comparator Match] FPU Response: a=1.#QNAN0e+000, b=2.060186e-031, op=OP_SQR, round = ROUND_EVEN, result = 1.#QNAN0e+000 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_coverage.sv{137) @ 670: env.coverage [env.coverage] cover respose: FPU Response: a=1.#QNAN0e+000, b=2.060186e-031, op=OP_SQR, round = ROUND_EVEN, result = 1.#QNAN0e+000 with status =01000000
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{51) @ 780: env.monitor [env.monitor] Getting Request
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{87) @ 780: env.monitor [monitor] request: FPU Request: a=0.000000e+000, b=-2.143540e+008, op=OP_ADD, round = ROUND_EVEN
+# ** MESSAGE: ../tb/sv/fpu_tlm_adapter.sv{51) @ 780: env.adapter [Adapter] master --> request: FPU Request: a=0.000000e+000, b=-2.143540e+008, op=OP_ADD, round = ROUND_EVEN
+# ** MESSAGE: ../tb/sv/fpu_tlm_dpi_c.sv{47) @ 780: env.TLM [tlm] TLM request: FPU Request: a=0.000000e+000, b=-2.143540e+008, op=OP_ADD, round = ROUND_EVEN
+# ** MESSAGE: ../tb/sv/fpu_tlm_dpi_c.sv{53) @ 780: env.TLM [tlm] TLM response: FPU Response: a=0.000000e+000, b=-2.143540e+008, op=OP_ADD, round = ROUND_EVEN, result = -2.143540e+008 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_tlm_adapter.sv{59) @ 780: env.adapter [Master] master <-- response: FPU Response: a=0.000000e+000, b=-2.143540e+008, op=OP_ADD, round = ROUND_EVEN, result = -2.143540e+008 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{74) @ 785: env.driver [driver] Waiting for Response
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{79) @ 860: env.driver [driver] Putting Response
+# ** MESSAGE: ../tb/sv/fpu_master.sv{147) @ 860: env.master [Master] master response: FPU Response: a=0.000000e+000, b=-2.143540e+008, op=OP_ADD, round = ROUND_EVEN, result = -2.143540e+008 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_master.sv{140) @ 860: env.master [Master] master request: FPU Request: a=3.666935e+010, b=0.000000e+000, op=OP_ADD, round = ROUND_DOWN
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{66) @ 870: env.driver [driver] Getting Request
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{69) @ 870: env.driver [driver] Issuing Request
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{57) @ 870: env.monitor [env.monitor] Getting Response
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{127) @ 870: env.monitor [env.monitor] response: FPU Response: a=0.000000e+000, b=-2.143540e+008, op=OP_ADD, round = ROUND_EVEN, result = -2.143540e+008 with status =00000000
+# ** MESSAGE: @ 870: env.comparator [Comparator Match] FPU Response: a=0.000000e+000, b=-2.143540e+008, op=OP_ADD, round = ROUND_EVEN, result = -2.143540e+008 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_coverage.sv{137) @ 870: env.coverage [env.coverage] cover respose: FPU Response: a=0.000000e+000, b=-2.143540e+008, op=OP_ADD, round = ROUND_EVEN, result = -2.143540e+008 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{51) @ 1030: env.monitor [env.monitor] Getting Request
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{87) @ 1030: env.monitor [monitor] request: FPU Request: a=3.666935e+010, b=0.000000e+000, op=OP_ADD, round = ROUND_DOWN
+# ** MESSAGE: ../tb/sv/fpu_tlm_adapter.sv{51) @ 1030: env.adapter [Adapter] master --> request: FPU Request: a=3.666935e+010, b=0.000000e+000, op=OP_ADD, round = ROUND_DOWN
+# ** MESSAGE: ../tb/sv/fpu_tlm_dpi_c.sv{47) @ 1030: env.TLM [tlm] TLM request: FPU Request: a=3.666935e+010, b=0.000000e+000, op=OP_ADD, round = ROUND_DOWN
+# ** MESSAGE: ../tb/sv/fpu_tlm_dpi_c.sv{53) @ 1030: env.TLM [tlm] TLM response: FPU Response: a=3.666935e+010, b=0.000000e+000, op=OP_ADD, round = ROUND_DOWN, result = 3.666935e+010 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_tlm_adapter.sv{59) @ 1030: env.adapter [Master] master <-- response: FPU Response: a=3.666935e+010, b=0.000000e+000, op=OP_ADD, round = ROUND_DOWN, result = 3.666935e+010 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{74) @ 1035: env.driver [driver] Waiting for Response
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{79) @ 1110: env.driver [driver] Putting Response
+# ** MESSAGE: ../tb/sv/fpu_master.sv{147) @ 1110: env.master [Master] master response: FPU Response: a=3.666935e+010, b=0.000000e+000, op=OP_ADD, round = ROUND_DOWN, result = 3.666935e+010 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_master.sv{140) @ 1110: env.master [Master] master request: FPU Request: a=-9.243094e+001, b=-1.288914e+015, op=OP_MUL, round = ROUND_ZERO
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{66) @ 1120: env.driver [driver] Getting Request
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{69) @ 1120: env.driver [driver] Issuing Request
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{57) @ 1120: env.monitor [env.monitor] Getting Response
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{127) @ 1120: env.monitor [env.monitor] response: FPU Response: a=3.666935e+010, b=0.000000e+000, op=OP_ADD, round = ROUND_DOWN, result = 3.666935e+010 with status =00000000
+# ** MESSAGE: @ 1120: env.comparator [Comparator Match] FPU Response: a=3.666935e+010, b=0.000000e+000, op=OP_ADD, round = ROUND_DOWN, result = 3.666935e+010 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_coverage.sv{137) @ 1120: env.coverage [env.coverage] cover respose: FPU Response: a=3.666935e+010, b=0.000000e+000, op=OP_ADD, round = ROUND_DOWN, result = 3.666935e+010 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{51) @ 1180: env.monitor [env.monitor] Getting Request
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{87) @ 1180: env.monitor [monitor] request: FPU Request: a=-9.243094e+001, b=-1.288914e+015, op=OP_MUL, round = ROUND_ZERO
+# ** MESSAGE: ../tb/sv/fpu_tlm_adapter.sv{51) @ 1180: env.adapter [Adapter] master --> request: FPU Request: a=-9.243094e+001, b=-1.288914e+015, op=OP_MUL, round = ROUND_ZERO
+# ** MESSAGE: ../tb/sv/fpu_tlm_dpi_c.sv{47) @ 1180: env.TLM [tlm] TLM request: FPU Request: a=-9.243094e+001, b=-1.288914e+015, op=OP_MUL, round = ROUND_ZERO
+# ** MESSAGE: ../tb/sv/fpu_tlm_dpi_c.sv{53) @ 1180: env.TLM [tlm] TLM response: FPU Response: a=-9.243094e+001, b=-1.288914e+015, op=OP_MUL, round = ROUND_ZERO, result = 1.191355e+017 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_tlm_adapter.sv{59) @ 1180: env.adapter [Master] master <-- response: FPU Response: a=-9.243094e+001, b=-1.288914e+015, op=OP_MUL, round = ROUND_ZERO, result = 1.191355e+017 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{74) @ 1185: env.driver [driver] Waiting for Response
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{79) @ 1310: env.driver [driver] Putting Response
+# ** MESSAGE: ../tb/sv/fpu_master.sv{147) @ 1310: env.master [Master] master response: FPU Response: a=-9.243094e+001, b=-1.288914e+015, op=OP_MUL, round = ROUND_ZERO, result = 1.191355e+017 with status =00000001
+# ** MESSAGE: ../tb/sv/fpu_master.sv{140) @ 1310: env.master [Master] master request: FPU Request: a=-1.718338e-032, b=4.031947e+011, op=OP_SUB, round = ROUND_EVEN
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{66) @ 1320: env.driver [driver] Getting Request
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{69) @ 1320: env.driver [driver] Issuing Request
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{57) @ 1320: env.monitor [env.monitor] Getting Response
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{127) @ 1320: env.monitor [env.monitor] response: FPU Response: a=-9.243094e+001, b=-1.288914e+015, op=OP_MUL, round = ROUND_ZERO, result = 1.191355e+017 with status =00000001
+# ** MESSAGE: @ 1320: env.comparator [Comparator Match] FPU Response: a=-9.243094e+001, b=-1.288914e+015, op=OP_MUL, round = ROUND_ZERO, result = 1.191355e+017 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_coverage.sv{137) @ 1320: env.coverage [env.coverage] cover respose: FPU Response: a=-9.243094e+001, b=-1.288914e+015, op=OP_MUL, round = ROUND_ZERO, result = 1.191355e+017 with status =00000001
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{51) @ 1400: env.monitor [env.monitor] Getting Request
+# ** MESSAGE: ../tb/sv/fpu_monitor.sv{87) @ 1400: env.monitor [monitor] request: FPU Request: a=-1.718338e-032, b=4.031947e+011, op=OP_SUB, round = ROUND_EVEN
+# ** MESSAGE: ../tb/sv/fpu_tlm_adapter.sv{51) @ 1400: env.adapter [Adapter] master --> request: FPU Request: a=-1.718338e-032, b=4.031947e+011, op=OP_SUB, round = ROUND_EVEN
+# ** MESSAGE: ../tb/sv/fpu_tlm_dpi_c.sv{47) @ 1400: env.TLM [tlm] TLM request: FPU Request: a=-1.718338e-032, b=4.031947e+011, op=OP_SUB, round = ROUND_EVEN
+# ** MESSAGE: ../tb/sv/fpu_tlm_dpi_c.sv{53) @ 1400: env.TLM [tlm] TLM response: FPU Response: a=-1.718338e-032, b=4.031947e+011, op=OP_SUB, round = ROUND_EVEN, result = -4.031947e+011 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_tlm_adapter.sv{59) @ 1400: env.adapter [Master] master <-- response: FPU Response: a=-1.718338e-032, b=4.031947e+011, op=OP_SUB, round = ROUND_EVEN, result = -4.031947e+011 with status =00000000
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{74) @ 1405: env.driver [driver] Waiting for Response
+# ** MESSAGE: ../tb/sv/fpu_driver.sv{79) @ 1480: env.driver [driver] Putting Response
+# ** MESSAGE: ../tb/sv/fpu_master.sv{147) @ 1480: env.master [Master] master response: FPU Response: a=-1.718338e-032, b=4.031947e+011, op=OP_SUB, round = ROUND_EVEN, result = -4.031947e+011 with status =00000001
+# ** MESSAGE: ../tb/sv/fpu_coverage.sv{147) @ 1480: env.coverage [coverage report]         52 percent covered
+# 
+# --- AVM Report Summary ---
+# 
+# ** Report counts by severity
+# MESSAGE  :   93
+# WARNING  :    0
+# ERROR    :    0
+# FATAL    :    0
+# ** Report counts by id
+# [Adapter             ]     6
+# [Comparator Match    ]     5
+# [Master              ]    18
+# [coverage report     ]     1
+# [driver              ]    24
+# [env.coverage        ]     5
+# [env.monitor         ]    16
+# [monitor             ]     6
+# [tlm                 ]    12
+# ** MESSAGE: ../tb/sv/fpu_rtl_env.sv{124) @ 1480: env [avm_env] Finished Test
+# vsim -assertdebug -coverage -displaymsgmode both -sv_seed 3 -sv_lib fpu_tlm_dpi_c optimized 
+# Loading sv_std.std
+# Loading sv_std.mti_fli
+# Loading mtiAvm.avm_pkg(fast)
+# Loading work.fpu_sv_pkg(fast)
+# Loading work.fpu_tr_pkg(fast)
+# Loading work.fpu_tlm_pkg(fast)
+# Loading work.fpu_env_pkg(fast)
+# Loading work.top(fast)
+# Loading work.fpu_pin_if(fast)
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading synopsys.attributes
+# Loading ieee.std_logic_misc(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fpupack(body)
+# Loading work.comppack
+# Loading work.fpu(rtl)#1
+# Loading work.pre_norm_addsub(rtl)
+# Loading work.addsub_28(rtl)
+# Loading work.post_norm_addsub(rtl)
+# Loading work.pre_norm_mul(rtl)
+# Loading work.mul_24(rtl)
+# Loading work.serial_mul(rtl)
+# Loading work.post_norm_mul(rtl)
+# Loading work.pre_norm_div(rtl)
+# Loading work.serial_div(rtl)
+# Loading work.post_norm_div(rtl)
+# Loading work.pre_norm_sqrt(rtl)
+# Loading work.sqrt(rtl)#1
+# Loading work.post_norm_sqrt(rtl)
+# Loading .\fpu_tlm_dpi_c.dll
+# Using seed : 3 

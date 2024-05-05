@@ -1,0 +1,16 @@
+# Commands to create and stimulate a memory
+
+# Allocate a memory with 100 elements
+M 100
+
+# Write mem[12] = 34
+W 12 34
+
+# Write mem[99] = 9
+W 99 9
+
+# Read with a good expect value
+R 12 34
+
+# Read with a bad expect value
+R 99 42

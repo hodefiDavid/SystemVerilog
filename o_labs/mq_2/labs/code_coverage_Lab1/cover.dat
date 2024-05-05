@@ -1,0 +1,1127 @@
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(0)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         8         1    88.88%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(1)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(2)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(3)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(4)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(5)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(6)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(7)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(8)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(9)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(10)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(11)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(12)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(13)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(14)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(15)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(16)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(17)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(18)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(19)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(20)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(21)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(22)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(23)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(24)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(25)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(26)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(27)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(28)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(29)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(30)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/GENER_RXFIFO(31)/CELLRX
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/control_INST
+=== Design Unit: work.micro
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        19        18         1    94.73%
+    Conditions                       2         2         0   100.00%
+    Statements                      21        20         1    95.23%
+    Toggles                        538       115       423    21.37%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/txproc_INST
+=== Design Unit: work.tx_process(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       376       251       125    66.75%
+    Conditions                      45        23        22    51.11%
+    Expressions                     29        20         9    68.96%
+    FSM States                       6         6         0   100.00%
+    FSM Transitions                 10         8         2    80.00%
+    Statements                     414       328        86    79.22%
+    Toggles                        826       304       522    36.80%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/preproc_INST
+=== Design Unit: work.pre_processor
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       570       396       174    69.47%
+    Conditions                     139        60        79    43.16%
+    Expressions                     54        38        16    70.37%
+    FSM States                       3         3         0   100.00%
+    FSM Transitions                  5         3         2    60.00%
+    Statements                     551       435       116    78.94%
+    Toggles                       1164       639       525    54.89%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/postproc_INST
+=== Design Unit: work.post_processor(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       120       110        10    91.66%
+    Conditions                      38        34         4    89.47%
+    Expressions                     11         8         3    72.72%
+    Statements                     136       127         9    93.38%
+    Toggles                        480       260       220    54.16%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/fsarb_INST
+=== Design Unit: work.arbitrator(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        40        36         4    90.00%
+    Conditions                      10         8         2    80.00%
+    Expressions                     10        10         0   100.00%
+    FSM States                       8         8         0   100.00%
+    FSM Transitions                 26        20         6    76.92%
+    Statements                     215       190        25    88.37%
+    Toggles                         56        51         5    91.07%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/fsaddmux_INST
+=== Design Unit: work.fs_add_mux(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+    Toggles                        162        90        72    55.55%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/control_126k_INST
+=== Design Unit: work.mode_two_control
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        18        18         0   100.00%
+    Conditions                       4         4         0   100.00%
+    Expressions                     17        12         5    70.58%
+    Statements                      25        25         0   100.00%
+    Toggles                         90        68        22    75.55%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX0
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         8         1    88.88%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX1
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX2
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX3
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX4
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX5
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX6
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX7
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX8
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX9
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX10
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX11
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX12
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX13
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX14
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX15
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX16
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX17
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX18
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX19
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX20
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX21
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX22
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX23
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX24
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX25
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX26
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX27
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX28
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX29
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX30
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/CELLTX31
+=== Design Unit: work.fifocell(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+    Conditions                       9         9         0   100.00%
+    Statements                      12        12         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid01_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid02_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid03_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid04_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid05_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         1         1    50.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid06_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid07_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         1         1    50.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid08_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid09_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         0         2     0.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid10_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         1         1    50.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid11_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid12_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid13_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid14_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid15_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid16_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid17_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid18_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid19_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid20_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid21_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid22_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid23_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid24_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid25_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid26_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid27_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         2         0   100.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP/bid28_INST
+=== Design Unit: work.bd4st(bd4st_arch)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      2         1         1    50.00%
+    Statements                       3         3         0   100.00%
+
+=================================================================================
+=== Instance: /test_delta/CHIP
+=== Design Unit: work.delta(rtl)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       106       106         0   100.00%
+    Conditions                     104        53        51    50.96%
+    Statements                      53        53         0   100.00%
+    Toggles                       2522      1674       848    66.37%
+
+=================================================================================
+=== Instance: /test_delta
+=== Design Unit: work.test_delta(rtl1)
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       117        81        36    69.23%
+    Conditions                      26        19         7    73.07%
+    Expressions                      6         4         2    66.66%
+    Statements                     708       378       330    53.38%
+    Toggles                       1254       603       651    48.08%
+
+
+Total Coverage By Instance (filtered view): 79.78%
+

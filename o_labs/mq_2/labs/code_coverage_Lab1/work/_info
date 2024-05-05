@@ -1,0 +1,547 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11e MIXED_VERSIONS
+!s11f vlog 2023.4 2023.10, Oct  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/david/Documents/system_verilog_projects/codes/o_labs/mq_2/labs/code_coverage_Lab1
+T_opt
+!s110 1714651288
+VE[mP?U;CCdJfL@m3]PB693
+04 10 4 work test_delta rtl1 1
+=1-98fa9bd6aec7-66338098-26-5fa8
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.4;77
+Earbitrator
+Z3 w1494528586
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+Z5 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+Z6 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z7 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 1
+R1
+Z8 8Arb.vhd
+Z9 FArb.vhd
+l0
+L27 1
+V5ahjzk];dDnoTYkbACHJ82
+!s100 H`fg?mf;=3HN9`_Ia2:hi3
+Z10 OL;C;2023.4;77
+32
+Z11 !s110 1714651237
+!i10b 1
+Z12 !s108 1714651237.000000
+Z13 !s90 -reportprogress|300|+cover=bcesfx|Tx.vhd|Arb.vhd|Buffers.vhd|Fifo.vhd|
+Z14 !s107 Fifo.vhd|Buffers.vhd|Arb.vhd|Tx.vhd|
+!i113 0
+Z15 !s102 +cover=bcesfx
+Z16 o+cover=bcesfx
+Z17 tExplicit 1 CvgOpt 0
+Artl
+R4
+R5
+R6
+R7
+Z18 DEx4 work 10 arbitrator 0 22 5ahjzk];dDnoTYkbACHJ82
+!i122 1
+l83
+L72 285
+V5:lWBaQ>4CE3WnBGA^EeS3
+!s100 1mK07XEEgbNba<Dm:FRaL1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Ebd4st
+R3
+R6
+R7
+!i122 1
+R1
+Z19 8Buffers.vhd
+Z20 FBuffers.vhd
+l0
+L30 1
+Vz47a]6RKH>Lakd9a98Y0O0
+!s100 ga;U_CEPG66_J=8CRZkXj1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Abd4st_arch
+R6
+R7
+DEx4 work 5 bd4st 0 22 z47a]6RKH>Lakd9a98Y0O0
+!i122 1
+l43
+L42 6
+VE3BfkkA;5]j3L36><@mdm2
+!s100 kgJ=5<:o05LU^oH:Fmhmc1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Ebt4r
+R3
+R6
+R7
+!i122 1
+R1
+R19
+R20
+l0
+L52 1
+V=nKGZl`fj46SF?QZgaYoe0
+!s100 LV3maLQ]L9YDjQFCCZW>B0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Abt4r_arch
+R6
+R7
+DEx4 work 4 bt4r 0 22 =nKGZl`fj46SF?QZgaYoe0
+!i122 1
+l63
+L61 5
+V]LGCNlA@n[e2eO<kmTRz?2
+!s100 eJmm=H1d;HAR6mnfNMG5E1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Edelta
+R3
+R6
+R7
+!i122 2
+R1
+Z21 8Delta.vhd
+Z22 FDelta.vhd
+l0
+Z23 L10 1
+V0U307G8A`F:LGR>4[zEFn1
+!s100 Em:Kz;;AL0Cj>[f^3c[bZ3
+R10
+32
+R11
+!i10b 1
+R12
+Z24 !s90 -reportprogress|300|+cover=bcesfx|Fs_add.vhd|Post.vhd|Delta.vhd|testdel.vhd|
+Z25 !s107 testdel.vhd|Delta.vhd|Post.vhd|Fs_add.vhd|
+!i113 0
+R15
+R16
+R17
+Artl
+R18
+R4
+R5
+Z26 DEx4 work 14 post_processor 0 22 GP^NnLP2`PnMLiN:9NhTM0
+R6
+R7
+DEx4 work 5 delta 0 22 0U307G8A`F:LGR>4[zEFn1
+!i122 2
+l490
+L57 1454
+VclT7Um]<JM79]zlGCOMcB3
+!s100 W;=B1G<lBjno<kF?coGc61
+R10
+32
+R11
+!i10b 1
+R12
+R24
+R25
+!i113 0
+R15
+R16
+R17
+Efifocell
+R3
+R6
+R7
+!i122 1
+R1
+Z27 8Fifo.vhd
+Z28 FFifo.vhd
+l0
+L24 1
+V=_Ld4QGjF7WoacNB^:E5[0
+!s100 XZ1If83oDn5j[38iiiM<Y0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Artl
+R6
+R7
+DEx4 work 8 fifocell 0 22 =_Ld4QGjF7WoacNB^:E5[0
+!i122 1
+l57
+L54 15
+VJfXZZ^gD7FJFAlK>FzJ9l1
+!s100 ZDPRji4^2RT3FaLFJ;REA3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Efs_add_mux
+R3
+R6
+R7
+!i122 2
+R1
+Z29 8Fs_add.vhd
+Z30 FFs_add.vhd
+l0
+L25 1
+VeL4b8>VcTLmgdCJfT@5F92
+!s100 SD3LBK3^Q1KcjGN4D?Z3Z2
+R10
+32
+R11
+!i10b 1
+R12
+R24
+R25
+!i113 0
+R15
+R16
+R17
+Artl
+R6
+R7
+DEx4 work 10 fs_add_mux 0 22 eL4b8>VcTLmgdCJfT@5F92
+!i122 2
+l55
+L54 11
+V1lCQT4W:gKlJ1R=mJPHCz3
+!s100 l3:Hm8nK:b[m:U<=T8fSA1
+R10
+32
+R11
+!i10b 1
+R12
+R24
+R25
+!i113 0
+R15
+R16
+R17
+vmicro
+Z31 2Micro.v|Modetwo.v|Pre.v
+Z32 !s110 1714651236
+!i10b 1
+!s100 NGK=@fHSmlf9V@Dln0CXm2
+IFYkSgM0X305Nao96FUUL[3
+R1
+R3
+8Micro.v
+FMicro.v
+!i122 0
+L0 3 133
+Z33 VDg1SIo80bB@j0V0VzS_@n1
+Z34 OL;L;2023.4;77
+r1
+!s85 0
+31
+Z35 !s108 1714651236.000000
+Z36 !s107 Pre.v|Modetwo.v|Micro.v|
+Z37 !s90 -reportprogress|300|+cover=bcesfx|Micro.v|Modetwo.v|Pre.v|
+!i113 0
+R15
+Z38 o+cover=bcesfx -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmode_two_control
+R31
+R32
+!i10b 1
+!s100 8REOb<EQBNlaPYM:7j0bT3
+Ii9cRHQiX=8^4g:TN7^U663
+R1
+R3
+8Modetwo.v
+FModetwo.v
+!i122 0
+L0 3 84
+R33
+R34
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R15
+R38
+R2
+Epost_processor
+R3
+R4
+R5
+R6
+R7
+!i122 2
+R1
+Z39 8Post.vhd
+Z40 FPost.vhd
+l0
+L6 1
+VGP^NnLP2`PnMLiN:9NhTM0
+!s100 ;W=mBzQCz38c5VJmVNnc?1
+R10
+32
+R11
+!i10b 1
+R12
+R24
+R25
+!i113 0
+R15
+R16
+R17
+Artl
+R4
+R5
+R6
+R7
+R26
+!i122 2
+l58
+L25 384
+V05kNXVL]XGCFm<`dYGhB_2
+!s100 5DQc=d]0d=MZ]C?bL1VZW0
+R10
+32
+R11
+!i10b 1
+R12
+R24
+R25
+!i113 0
+R15
+R16
+R17
+vpre_processor
+R31
+R32
+!i10b 1
+!s100 8nKgV6Bi`cD=aCDSZf4az3
+I0gWKRn7X5h`EEHn>fc^M02
+R1
+R3
+8Pre.v
+FPre.v
+!i122 0
+L0 3 1768
+R33
+R34
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R15
+R38
+R2
+Eschmitt
+R3
+R6
+R7
+!i122 1
+R1
+R19
+R20
+l0
+R23
+VN1C<mWkQ:0aIA8b;X^0oX1
+!s100 MLz=D17_R2KOW>SF_Nm>52
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Aschmitt_arch
+R6
+R7
+DEx4 work 7 schmitt 0 22 N1C<mWkQ:0aIA8b;X^0oX1
+!i122 1
+l21
+L20 5
+VoL6zCzMT78z6FNzBAU=9z3
+!s100 PP`jRbdAWfJOSe94L>^TB3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Etest_delta
+R3
+!i122 2
+R1
+Z41 8testdel.vhd
+Z42 Ftestdel.vhd
+l0
+L20 1
+VhP9`D75NoJd1PScRBAGMk1
+!s100 g<1j82g_ZgiQMznC@8l5G2
+R10
+32
+R11
+!i10b 1
+R12
+R24
+R25
+!i113 0
+R15
+R16
+R17
+Artl1
+DEx4 work 10 test_delta 0 22 hP9`D75NoJd1PScRBAGMk1
+DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+DPx4 ieee 16 std_logic_textio 0 22 C8j>g0lzF^EAA]5<S6PY32
+R5
+R4
+R6
+R7
+!i122 2
+l184
+L33 1291
+VAK9nea27cOggDULEl=]cI3
+!s100 oz91cG7cTZ5PN>5[H015G3
+R10
+32
+R11
+!i10b 1
+R12
+R24
+R25
+!i113 0
+R15
+R16
+R17
+Etx_process
+R3
+R4
+R5
+R6
+R7
+!i122 1
+R1
+Z43 8Tx.vhd
+Z44 FTx.vhd
+l0
+L6 1
+VThgekE@n23^o5?E7eJCmP2
+!s100 3:3c_4cR0G_a^[cR6I2g^2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
+Artl
+R4
+R5
+R6
+R7
+DEx4 work 10 tx_process 0 22 ThgekE@n23^o5?E7eJCmP2
+!i122 1
+l141
+L46 1094
+V]B_AV8e>HEQ`O`;A@2gm<0
+!s100 >X=WDQ]h]F5MV0LUFDk=M2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+R17
