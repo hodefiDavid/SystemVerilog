@@ -45,6 +45,7 @@ module top;
     .wr_data(i_inf.wr_data),
     .rd_data(i_inf.rd_data)
    );
+    //  memory DUT (i_inf.DUT);
 
   initial begin
  	$dumpfile("dump.vcd");

@@ -13,10 +13,18 @@ class transaction
   constraint c1 { wr_en ^ rd_en == 1; }
   constraint c2 { rst == 0; }
 
+ 
+
+
   //data signals
   rand logic  [DATA_WIDTH-1:0]  wr_data;
   logic  [DATA_WIDTH-1:0] rd_data;
 
+   // Add constraint to wr_data
+  //  constraint c3 {
+  //   wr_data < 8;
+  //   wr_data > 0;
+  // }
 
   function void display(string name);
     $display("-------------------------");

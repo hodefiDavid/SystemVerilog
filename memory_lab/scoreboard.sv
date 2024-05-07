@@ -33,8 +33,10 @@ class scoreboard;
       mon2scbout.get(trans_out);
 
       //reference model functionality
+      //reset the memory
       if (trans_in.rst) begin
         for (i = 0; i < 2 ** trans_in.ADDR_WIDTH; i++) mem[i] = 0;
+      //perform the read and write operations
       end else if (trans_in.wr_en) mem[trans_in.addr] = trans_in.wr_data;
       else if (trans_in.rd_en) trans_in.rd_data = mem[trans_in.addr];
 
