@@ -1,13 +1,14 @@
 class transaction;
   
   //declare the transaction fields
+  bit rst;
   rand  bit write_en;
   rand  bit read_en;
   rand  bit [3:0] data_in;
+
   bit [3:0] data_out;
   bit full;
   bit empty;
-  bit rst;
   //constraint to ensure write_en and read_en are not high at the same time
   constraint read_or_write {!(write_en && read_en);}
 

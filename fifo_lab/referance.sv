@@ -26,24 +26,24 @@ class referance;
     endfunction
 
     task reset();
-      data_out = 4'b0;
-      full = 1'b0;
-      empty = 1'b1;
+    this.data_out = 4'b0;
+    this.full = 1'b0;
+    this.empty = 1'b1;
 
-      data_in = 4'b0;
-      write_en = 1'b0;
-      read_en = 1'b0;
-      rst = 1'b0;
+    this.data_in = 4'b0;
+    this.write_en = 1'b0;
+    this.read_en = 1'b0;
+    this.rst = 1'b0;
 
-      tag = 4'b0;
-      ptr_read = 2'b0;
-      ptr_write = 2'b0;
-      for(int i=0;i<4;i++)
-        mem[i] = 4'b0; 
+    this.trans = new();
+    this.tag = 4'b0;
+    this.ptr_read = 2'b0;
+    this.ptr_write = 2'b0;
+    for(int i=0;i<4;i++)
+        this.mem[i] = 4'b0; 
+
     endtask
-
     
- 
     task bit is_empty()
             if(this.tag == 2'b00)
                 return 1; 
@@ -58,20 +58,28 @@ class referance;
                 return 0; 
     endtask
 
-    task step(transaction trans_in);
-
+    task transaction step(transaction trans_in);
         //functunality for fifo 4bit
-        if(trans.rst)
+        if(trans_in.rst)
             this.reset();
         //if read is on but the fifo is empty
-        else if(read_en && is_empty())
-        else if(write_en && is_full())
+        else if(trans_in.read_en && is_empty())
+        else if(trans_in.write_en && is_full())
         //if read is on and memory in the ptr_read is not empty
-        else if(read_en && this.tag[ptr_read] == 1'b1)
+        else if(trans_in.read_en && this.tag[ptr_read] == 1'b1) begin
         data_out = mem[ptr_read];
         this.tag[ptr_read] = 1'b0;
         increment_ptr(this.flag_read);
-        
+        end
+        else if(trans_in.write_en && this.tag[ptr_write] == 1'b0) begin
+        mem[ptr_write] = data_in;
+        this.tag[ptr_write] = 1'b1;
+        increment_ptr(this.flag_write);
+        end
+        this.empty = is_empty();
+        this.full = is_full();
+
+
     endtask
 
     //increment the pointer read and write
