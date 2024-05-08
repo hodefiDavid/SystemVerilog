@@ -1,5 +1,6 @@
 //gets the packet from the monitor, generates the expected results 
 //and compares with the actual results received from the monitor
+`include "reference.sv"
 
 class scoreboard;
    
@@ -35,10 +36,11 @@ class scoreboard;
       if(trans_out.full == rfm.full && trans_out.empty == rfm.empty && trans_out.data_out == rfm.data_out)
           $display("Result is as Expected");
         else begin
-          $error("Wrong Result!
-          \n data_out : Expeced: %d Actual: %d
-          \n empty : Expeced: %0d Actual: %0d
-          \n full : Expeced: %0d Actual: %0d ",rfm.data_out,trans_out.data_out,,rfm.empty,trans_out.empty,rfm.full,trans_out.full);
+
+          $error("Wrong Result!");
+          $error("data_out : Expeced: %d Actual: %d",rfm.data_out,trans_out.data_out);
+          $error("empty : Expeced: %0d Actual: %0d",rfm.empty,trans_out.empty);
+          $error("full : Expeced: %0d Actual: %0d",rfm.full,trans_out.full);
 
         end
 

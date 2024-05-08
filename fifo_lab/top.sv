@@ -1,5 +1,3 @@
-// Code your testbench here
-// or browse Examples
 //testbench top is the top most file, in which DUT and Verification environment are connected. 
 
 //include interfcae 
@@ -32,11 +30,14 @@ module top;
   test t1(i_inf);
   
   //DUT instance, interface handle is passed to test 
-  fifo a1(i_inf.DUT);
-  
-  initial begin
- 	$dumpfile("dump.vcd");
-	$dumpvars;
-  end 
+  fifo f1(.clk(i_inf.clk),
+  .rst(i_inf.rst),
+  .write_en(i_inf.write_en),
+  .read_en(i_inf.read_en),
+  .data_in(i_inf.data_in),
+  .data_out(i_inf.data_out),
+  .full(i_inf.full),
+  .empty(i_inf.empty)
+  );
   
 endmodule

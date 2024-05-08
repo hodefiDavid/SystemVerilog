@@ -1,5 +1,5 @@
 //referance model class for fifo 4 bit
-class referance;
+class reference;
  
  //declare output and input signals
     bit flag_write=1;
@@ -16,7 +16,7 @@ class referance;
     bit rst;
 
     bit [3:0] mem [3:0];
-    bit tag [3:0];
+    bit [3:0] tag;
     bit [1:0] ptr_read;
     bit [1:0] ptr_write;
 
@@ -44,27 +44,27 @@ class referance;
 
     endtask
     
-    task bit is_empty()
-            if(this.tag == 2'b00)
-                return 1; 
-            else
-                return 0; 
-    endtask
+function bit is_empty();
+    if(this.tag == 2'b00)
+        return 1; 
+    else
+        return 0; 
+endfunction       
 
-   task bit is_full()
-            if(this.tag == 2'b11)
-                return 1; 
-            else
-                return 0; 
-    endtask
+function bit is_full();
+    if(this.tag == 2'b11)
+        return 1; 
+    else
+        return 0; 
+endfunction
 
-    task transaction step(transaction trans_in);
+    task step(transaction trans_in);
         //functunality for fifo 4bit
         if(trans_in.rst)
             this.reset();
         //if read is on but the fifo is empty
-        else if(trans_in.read_en && is_empty())
-        else if(trans_in.write_en && is_full())
+        else if(trans_in.read_en && is_empty());
+        else if(trans_in.write_en && is_full());        
         //if read is on and memory in the ptr_read is not empty
         else if(trans_in.read_en && this.tag[ptr_read] == 1'b1) begin
         data_out = mem[ptr_read];

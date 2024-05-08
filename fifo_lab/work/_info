@@ -1,0 +1,192 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/david/Documents/system_verilog_projects/codes/fifo_lab
+vfifo
+2fifo.v|interface.sv
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1715197038
+!i10b 1
+!s100 7LOTnm>_lOIW_HI2TWiTJ0
+IYV<FP;VHaXhMY6cHIFT^S1
+S1
+R1
+w1715195483
+Z4 8fifo.v
+Z5 Ffifo.v
+!i122 35
+L0 12 41
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2023.4;77
+r1
+!s85 0
+31
+Z8 !s108 1715197038.000000
+Z9 !s107 interface.sv|fifo.v|
+Z10 !s90 -reportprogress|300|-sv|fifo.v|interface.sv|
+!i113 0
+Z11 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+Yinf
+Z13 2top.sv
+Z14 !s105 top_sv_unit
+Z15 DXx4 work 11 top_sv_unit 0 22 jf=k0OX>Yd8=V`dz[UW0@2
+R2
+R3
+!i10b 1
+!s100 fVAi9PkF<V@ZkYY<]NX0e3
+IMK?789D<dAIW?fSEec;LB2
+S1
+R1
+w1715161842
+8interface.sv
+Z16 Finterface.sv
+!i122 36
+Z17 L0 1 0
+R6
+R7
+r1
+!s85 0
+31
+R8
+Z18 !s107 reference.sv|scoreboard.sv|monitor_out.sv|monitor_in.sv|driver.sv|generator.sv|transaction.sv|environment.sv|random_test.sv|interface.sv|top.sv|
+Z19 !s90 -reportprogress|300|top.sv|
+!i113 0
+Z20 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R12
+Topt_test
+!s11d top_sv_unit C:/Users/david/Documents/system_verilog_projects/codes/fifo_lab/work 1 inf 1 C:/Users/david/Documents/system_verilog_projects/codes/fifo_lab/work 
+!s110 1715197039
+VNK4VFWA_g<zS3klK602Lm0
+04 3 4 work top fast 0
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o+acc
+R12
+nopt_test
+OL;O;2023.4;77
+vsynchronous_fifo
+R2
+!s110 1715194455
+!i10b 1
+!s100 ]d;I@Z0QAV^L1;Q_9^Zmh1
+Ie6z?kSEz7c^LRBBMnKV5G1
+S1
+R1
+w1715189016
+R4
+R5
+!i122 0
+L0 53 38
+R6
+R7
+r1
+!s85 0
+31
+!s108 1715194455.000000
+R9
+R10
+!i113 0
+R11
+R12
+4test
+R13
+R2
+R15
+R3
+R6
+r1
+!s85 0
+!i10b 1
+!s100 >4@NGWNlm@eb?ZlY_jZe52
+Ikc4hebBN66FUkBZASKi@72
+R14
+S1
+R1
+w1715196816
+8random_test.sv
+Z21 Frandom_test.sv
+!i122 36
+L0 2 0
+R7
+31
+R8
+R18
+R19
+!i113 0
+R20
+R12
+vtop
+R13
+R2
+R15
+R3
+R6
+r1
+!s85 0
+!i10b 1
+!s100 UV4k5L:]h5>C52H1Y0C572
+Iz]_a^d:<cDkG8e:T?;jzI2
+R14
+S1
+R1
+w1715196903
+Z22 8top.sv
+Z23 Ftop.sv
+!i122 36
+L0 10 34
+R7
+31
+R8
+R18
+R19
+!i113 0
+R20
+R12
+Xtop_sv_unit
+R13
+!s115 inf
+R2
+R3
+Vjf=k0OX>Yd8=V`dz[UW0@2
+r1
+!s85 0
+!i10b 1
+!s100 o77n6XZ;fT0U9[0E2eB3:2
+Ijf=k0OX>Yd8=V`dz[UW0@2
+!i103 1
+S1
+R1
+w1715197036
+R22
+R23
+R16
+R21
+Fenvironment.sv
+Ftransaction.sv
+Fgenerator.sv
+Fdriver.sv
+Fmonitor_in.sv
+Fmonitor_out.sv
+Fscoreboard.sv
+Freference.sv
+!i122 36
+R17
+R7
+31
+R8
+R18
+R19
+!i113 0
+R20
+R12
