@@ -1,0 +1,169 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2023.4 2023.10, Oct  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/david/Documents/system_verilog_projects/codes/fifo_bar
+vfifo
+Z2 2top.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 DXx4 work 11 top_sv_unit 0 22 M5S3:HHP2Z=^`ZD9dH86Y0
+Z5 !s110 1715243613
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 HJV_MA0Bjz@ONj3l;kD7M0
+IPf>O=JCV1B:;`YSVeROl;3
+Z7 !s105 top_sv_unit
+S1
+R1
+Z8 w1715243606
+8fifo.sv
+Z9 Ffifo.sv
+!i122 1
+L0 1 54
+Z10 OL;L;2023.4;77
+31
+Z11 !s108 1715243613.000000
+Z12 !s107 fifo.sv|fifo_scoreboard.sv|fifo_monitor.sv|fifo_generator.sv|fifo_driver.sv|transaction.sv|fifo_env.sv|test.sv|fifo_interface.sv|top.sv|
+Z13 !s90 -reportprogress|300|top.sv|
+!i113 0
+Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z15 tCvgOpt 0
+Yfifo_interface
+R2
+R7
+R4
+R3
+R5
+!i10b 1
+!s100 ;<8z2JNXmP@R0_eh1i4mm1
+IFg@P]CUkY2YJ_[[U8IOEY3
+S1
+R1
+Z16 w1715243113
+8fifo_interface.sv
+Z17 Ffifo_interface.sv
+!i122 1
+Z18 L0 1 0
+R6
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Topt_test
+!s11d top_sv_unit C:/Users/david/Documents/system_verilog_projects/codes/fifo_bar/work 1 fifo_interface 1 C:/Users/david/Documents/system_verilog_projects/codes/fifo_bar/work 
+R5
+VR3bjU7K_8^Si:=aWV<;913
+04 3 4 work top fast 0
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o+acc
+R15
+nopt_test
+OL;O;2023.4;77
+4test
+R2
+R3
+R4
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 ei9jX5KSdgHN:oI01R5O31
+IMAk:=B48k<OHB1GT?h?fe1
+R7
+S1
+R1
+R16
+8test.sv
+Z19 Ftest.sv
+!i122 1
+L0 2 0
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vtop
+R2
+R3
+R4
+R5
+R6
+r1
+!s85 0
+!i10b 1
+!s100 cRgHmH4dfTF19_9=<1C9:3
+IA1i_bH;moP0:U8:HMBP8d0
+R7
+S1
+R1
+R16
+Z20 8top.sv
+Z21 Ftop.sv
+!i122 1
+L0 6 31
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Xtop_sv_unit
+R2
+!s115 fifo_interface
+R3
+R5
+VM5S3:HHP2Z=^`ZD9dH86Y0
+r1
+!s85 0
+!i10b 1
+!s100 fc]R>OHcFB8?JNWNn?<KY2
+IM5S3:HHP2Z=^`ZD9dH86Y0
+!i103 1
+S1
+R1
+R8
+R20
+R21
+R17
+R19
+Ffifo_env.sv
+Ftransaction.sv
+Ffifo_driver.sv
+Ffifo_generator.sv
+Ffifo_monitor.sv
+Ffifo_scoreboard.sv
+R9
+!i122 1
+R18
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15

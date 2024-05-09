@@ -50,7 +50,7 @@ class driver;
 
       trans.display_in("[ --Driver-- ]");
       
-      @(posedge vinf.clk);
+      // @(posedge vinf.clk);
       num_transactions++;
     end
   endtask

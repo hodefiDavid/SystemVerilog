@@ -32,6 +32,12 @@ class scoreboard;
       mon2scbout.get(trans_out);
       //here we are sending the transaction packet to reference model
       rfm.step(trans_in);
+      // if(trans_in.rst)
+      //   rfm.reset();
+      //   else if(trans_in.read_en)
+      //     rfm.read_data();
+      //       else
+      //         rfm.write_data(trans_in.data_in);
       //comparing the actual results with the expected results
       if(trans_out.full == rfm.full && trans_out.empty == rfm.empty && trans_out.data_out == rfm.data_out)
           $display("Result is as Expected");

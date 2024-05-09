@@ -45,36 +45,41 @@ class reference;
     endtask
     
 function bit is_empty();
-    if(this.tag == 2'b00)
+    if(this.tag == 4'b0000)
         return 1; 
     else
         return 0; 
 endfunction       
 
 function bit is_full();
-    if(this.tag == 2'b11)
+    if(this.tag == 4'b1111)
         return 1; 
     else
         return 0; 
 endfunction
 
     task step(transaction trans_in);
+   
         //functunality for fifo 4bit
         if(trans_in.rst)
             this.reset();
         //if read is on but the fifo is empty
         else if(trans_in.read_en && is_empty());
-        else if(trans_in.write_en && is_full());        
+        else if(trans_in.write_en && is_full()); 
+
         //if read is on and memory in the ptr_read is not empty
-        else if(trans_in.read_en && this.tag[ptr_read] == 1'b1) begin
+        else if(trans_in.read_en && !is_empty()) begin
         data_out = mem[ptr_read];
         this.tag[ptr_read] = 1'b0;
-        increment_ptr(this.flag_read);
+        // increment_ptr(this.flag_read);
+        this.ptr_read++;
+
         end
-        else if(trans_in.write_en && this.tag[ptr_write] == 1'b0) begin
+        else if(trans_in.write_en && !is_full()) begin
         mem[ptr_write] = data_in;
         this.tag[ptr_write] = 1'b1;
-        increment_ptr(this.flag_write);
+        // increment_ptr(this.flag_write);
+        this.ptr_write++;
         end
         this.empty = is_empty();
         this.full = is_full();
@@ -87,6 +92,7 @@ endfunction
     //else it will be incremented by 1
     //if we will get in the flag 1, we will increment the write pointer
     //else we will increment the read pointer
+
     task increment_ptr(bit flag);
         if(flag)
             if(this.ptr_write == 2'b11)
@@ -102,3 +108,69 @@ endfunction
     endtask
 
  endclass
+
+// // class reference;
+// //     // Inputs
+// //     rand bit clk;
+// //     rand bit rst;
+// //     rand bit write_en;
+// //     rand bit read_en;
+// //     rand logic [3:0] data_in;
+
+// //     // Outputs
+// //     bit [3:0] data_out;
+// //     bit full;
+// //     bit empty;
+
+// //     // Internal variables
+// //     bit [3:0] memory [0:3];
+// //     bit [1:0] write_ptr;
+// //     bit [1:0] read_ptr;
+// //     bit [3:0] data_out_reg;
+
+// //     // Constructor
+// //     function new();
+// //         write_ptr = 2'b00;
+// //         read_ptr = 2'b00;
+// //         memory[0] = 4'b0000;
+// //         memory[1] = 4'b0000;
+// //         memory[2] = 4'b0000;
+// //         memory[3] = 4'b0000;
+// //     endfunction
+
+// //     function void reset();
+// //         write_ptr = 2'b00;
+// //         read_ptr = 2'b00;
+// //         memory[0] = 4'b0000;
+// //         memory[1] = 4'b0000;
+// //         memory[2] = 4'b0000;
+// //         memory[3] = 4'b0000;
+// //         endfunction
+
+// //     // Method to write data into FIFO
+// //     task write_data(input logic [3:0] data);
+// //         if (write_en && !full) begin
+// //             memory[write_ptr] = data;
+// //             write_ptr = write_ptr + 1;
+// //         end
+// //     endtask
+
+// //     // Method to read data from FIFO
+// //     task read_data();
+// //         if (read_en && !empty) begin
+// //             data_out_reg = memory[read_ptr];
+// //             read_ptr = read_ptr + 1;
+// //         end
+// //     endtask
+
+// //     // Method to check if FIFO is full
+// //     function bit is_full();
+// //         return (write_ptr + 1 == read_ptr);
+// //     endfunction
+
+// //     // Method to check if FIFO is empty
+// //     function bit is_empty();
+// //         return (write_ptr == read_ptr);
+// //     endfunction
+
+// // endclass
