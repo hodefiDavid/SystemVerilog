@@ -54,7 +54,3 @@ This specification provides a starting point for documenting the ALU module. Add
 - Timing requirements for inputs and outputs.
 - Error handling strategy for invalid opcode values (if applicable).
 - Test strategy and coverage requirements.
-
----
-
-Feel free to customize this README template further based on your specific implementation requirements! 🚀
