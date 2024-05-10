@@ -1,0 +1,34 @@
+
+Full Adder Module Specification (full_adder_1bit)
+Module Description:
+
+The full_adder_1bit module implements a single-bit full adder circuit. 
+It takes three one-bit inputs (i_a, i_b, and i_cin) and produces 
+two one-bit outputs (o_sum and o_carry).
+
+Inputs:
+
+i_a: First operand (one bit)
+i_b: Second operand (one bit)
+i_cin: Carry-in signal (one bit)
+
+Outputs:
+
+o_sum: Sum of the three inputs (one bit)
+o_carry: Carry-out signal (one bit)
+Functional Specification:
+
+The o_sum output represents the sum of the three inputs (i_a, i_b, and i_cin).
+The o_carry output represents the carry-out generated from the addition operation.
+
+Truth Table:
+
+i_a	    i_b	    i_cin	o_sum	o_carry
+0       0	    0	    0	    0
+0       0	    1	    1	    0
+0       1	    0	    1	    0
+0       1	    1	    0	    1
+1       0	    0	    1	    0
+1       0	    1	    0	    1
+1       1	    0	    0	    1
+1       1	    1	    1	    1

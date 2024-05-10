@@ -22,6 +22,7 @@ R0
 R0
 R0
 R0
+R0
 !s12c _opt2
 R0
 !s12c _opt1
@@ -88,7 +89,7 @@ R1
 vcounter
 Z10 2counter.sv|environment.sv|random_test.sv|top.sv
 Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z12 !s110 1715235718
+Z12 !s110 1715253219
 !i10b 1
 !s100 ;_n::FchhYKEgSz;>m7[U3
 Ib8SUh2DXDhA<_:Qf@mMHP1
@@ -97,14 +98,14 @@ Z13 dC:/Users/david/Documents/system_verilog_projects/codes/counter_nirv
 Z14 w1715235433
 8counter.sv
 Fcounter.sv
-!i122 68
+!i122 69
 L0 11 12
 Z15 VDg1SIo80bB@j0V0VzS_@n1
 Z16 OL;L;2023.4;77
 r1
 !s85 0
 31
-Z17 !s108 1715235718.000000
+Z17 !s108 1715253219.000000
 Z18 !s107 interface.sv|scoreboard.sv|monitor.sv|driver.sv|generator.sv|transaction.sv|top.sv|random_test.sv|environment.sv|counter.sv|
 Z19 !s90 -reportprogress|300|-sv|counter.sv|environment.sv|random_test.sv|top.sv|
 !i113 0
@@ -158,7 +159,7 @@ Z24 Fgenerator.sv
 R21
 Z25 Fmonitor.sv
 Z26 Fscoreboard.sv
-!i122 68
+!i122 69
 Z27 L0 1 0
 R16
 31
@@ -182,7 +183,7 @@ R13
 R14
 8interface.sv
 Z30 Finterface.sv
-!i122 68
+!i122 69
 R27
 R15
 R16
@@ -197,8 +198,8 @@ R20
 R8
 Topt_test
 !s11d top_sv_unit C:/Users/david/Documents/system_verilog_projects/codes/counter_nirv/work 1 inf 1 C:/Users/david/Documents/system_verilog_projects/codes/counter_nirv/work 
-!s110 1715235719
-ViIB4=al@BE5``CARd;aDL1
+!s110 1715253220
+VPN8152j2`6`Q?cC2Ma33Q1
 R3
 R0
 R4
@@ -231,7 +232,7 @@ R24
 R21
 R25
 R26
-!i122 68
+!i122 69
 R27
 R16
 31
@@ -258,7 +259,7 @@ R13
 R14
 R31
 R32
-!i122 68
+!i122 69
 L0 2 0
 R16
 31
@@ -345,7 +346,7 @@ R13
 R14
 Z42 8top.sv
 Z43 Ftop.sv
-!i122 68
+!i122 69
 R41
 R16
 31
@@ -380,7 +381,7 @@ R24
 R21
 R25
 R26
-!i122 68
+!i122 69
 R27
 R16
 31

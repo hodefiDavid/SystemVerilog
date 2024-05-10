@@ -22,8 +22,7 @@ class monitor_out;
     forever begin
       transaction trans;
       trans = new();
-      @(posedge vinf.clk);
-      @(posedge vinf.clk);
+      @(negedge vinf.clk);
 
       trans.data_out = vinf.data_out;
       trans.full = vinf.full; 
@@ -31,6 +30,8 @@ class monitor_out;
       
       trans.display_out("[ --Monitor_out-- ]");
       mon2scbout.put(trans);
+      @(posedge vinf.clk);
+
     end
   endtask
   

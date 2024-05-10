@@ -29,7 +29,7 @@ class monitor_in;
         trans.data_in  = vinf.data_in;
 
       trans.display_in("[ --Monitor_in-- ]");
-      @(posedge vinf.clk);
+      //@(posedge vinf.clk);
       mon2scbin.put(trans);
       
     end

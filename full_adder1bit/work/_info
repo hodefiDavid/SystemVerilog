@@ -1,0 +1,174 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2023.4 2023.10, Oct  9 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/david/Documents/system_verilog_projects/codes/full_adder1bit
+vfull_adder_1bit
+2full_adder1bit.v|interface.sv
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1715282121
+!i10b 1
+!s100 mI6S@8iO_A;aT[l]iAgZ12
+Ia:d:7kYcEW[QiYnU4Tj]O0
+S1
+R1
+w1715268782
+8full_adder1bit.v
+Ffull_adder1bit.v
+!i122 21
+L0 1 19
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.4;77
+r1
+!s85 0
+31
+!s108 1715282120.000000
+!s107 interface.sv|full_adder1bit.v|
+!s90 -reportprogress|300|-sv|full_adder1bit.v|interface.sv|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+Yinf
+Z7 2top.sv
+Z8 !s105 top_sv_unit
+Z9 DXx4 work 11 top_sv_unit 0 22 n`8_W1T24QLi[:05<Z9OM1
+R2
+R3
+!i10b 1
+!s100 LYODnoGAoJ<6`gQ2D@RUd2
+IM<YzgE>WD1bXl?:TR5FdM3
+S1
+R1
+w1715277229
+8interface.sv
+Z10 Finterface.sv
+!i122 22
+Z11 L0 1 0
+R4
+R5
+r1
+!s85 0
+31
+Z12 !s108 1715282121.000000
+Z13 !s107 reference.sv|scoreboard.sv|monitor.sv|driver.sv|generator.sv|transaction.sv|environment.sv|random_test.sv|interface.sv|top.sv|
+Z14 !s90 -reportprogress|300|top.sv|
+!i113 0
+Z15 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+Topt_test
+!s11d top_sv_unit C:/Users/david/Documents/system_verilog_projects/codes/full_adder1bit/work 1 inf 1 C:/Users/david/Documents/system_verilog_projects/codes/full_adder1bit/work 
+R3
+VD__hMGS54E<h:2V=nYSmF3
+04 3 4 work top fast 0
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o+acc
+R6
+nopt_test
+OL;O;2023.4;77
+4test
+R7
+R2
+R9
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 ]CUO7ea4WnW1=?B@hSjAO1
+IQoA@]koA=j>EBC9SaVa;31
+R8
+S1
+R1
+w1715270180
+8random_test.sv
+Z16 Frandom_test.sv
+!i122 22
+L0 2 0
+R5
+31
+R12
+R13
+R14
+!i113 0
+R15
+R6
+vtop
+R7
+R2
+R9
+R3
+R4
+r1
+!s85 0
+!i10b 1
+!s100 A1_QhPEbjiWlSj^H]YRN?2
+IM]_:h7TNP60?Q469oJX=S3
+R8
+S1
+R1
+w1715277335
+Z17 8top.sv
+Z18 Ftop.sv
+!i122 22
+L0 10 26
+R5
+31
+R12
+R13
+R14
+!i113 0
+R15
+R6
+Xtop_sv_unit
+R7
+!s115 inf
+R2
+R3
+Vn`8_W1T24QLi[:05<Z9OM1
+r1
+!s85 0
+!i10b 1
+!s100 @EU=:Q`m;0=5zlVSP[58?0
+In`8_W1T24QLi[:05<Z9OM1
+!i103 1
+S1
+R1
+w1715282107
+R17
+R18
+R10
+R16
+Fenvironment.sv
+Ftransaction.sv
+Fgenerator.sv
+Fdriver.sv
+Fmonitor.sv
+Fscoreboard.sv
+Freference.sv
+!i122 22
+R11
+R5
+31
+R12
+R13
+R14
+!i113 0
+R15
+R6
