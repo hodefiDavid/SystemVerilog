@@ -22,18 +22,13 @@ class driver;
   endfunction
   
   //Reset task, Reset the Interface signals to default/initial values
+  // negedge reset signal that resets the interface signals in low mode
   task reset;
-    wait(vinf.rst);
+    wait(!vinf.rst_n);
     $display("[ --DRIVER-- ] ----- Reset Started -----");
-    // vinf.<= 0;
     //reset all the interface signals of fifo DUT
-    vinf.read_en <= 0;
-    vinf.write_en <= 0;
-    vinf.data_in  <= 0;
-    vinf.data_out <= 0;
-    vinf.full     <= 0;
-    vinf.empty    <= 1;
-    wait(!vinf.rst);
+   
+    wait(vinf.rst_n);
     $display("[ --DRIVER-- ] ----- Reset Ended   -----");
   endtask
   
@@ -42,17 +37,18 @@ class driver;
     forever begin
       transaction trans;
       gen2drv.get(trans);
-      @(posedge vinf.clk) begin
 
-      vinf.read_en <= trans.read_en;
-      vinf.write_en <= trans.write_en;
-      vinf.data_in  <= trans.data_in;
-
+      // wait for the positive edge of the clock signal - why??? i need to understand this
+      @(posedge vinf.clk);
+      //convert the transaction packet items into interface signals
+        vinf.in0 = trans.in0;
+        vinf.in1 = trans.in1;
+        vinf.in2 = trans.in2;
+        vinf.in3 = trans.in3;
+        vinf.select = trans.select;
+              
       trans.display_in("[ --Driver-- ]");
-      
-      // @(posedge vinf.clk);
       num_transactions++;
-      end
     end
   endtask
   

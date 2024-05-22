@@ -25,14 +25,8 @@ class driver;
   task reset;
     wait(vinf.rst);
     $display("[ --DRIVER-- ] ----- Reset Started -----");
-    // vinf.<= 0;
     //reset all the interface signals of fifo DUT
-    vinf.read_en <= 0;
-    vinf.write_en <= 0;
-    vinf.data_in  <= 0;
-    vinf.data_out <= 0;
-    vinf.full     <= 0;
-    vinf.empty    <= 1;
+   
     wait(!vinf.rst);
     $display("[ --DRIVER-- ] ----- Reset Ended   -----");
   endtask
@@ -43,16 +37,14 @@ class driver;
       transaction trans;
       gen2drv.get(trans);
       @(posedge vinf.clk) begin
-
-      vinf.read_en <= trans.read_en;
-      vinf.write_en <= trans.write_en;
-      vinf.data_in  <= trans.data_in;
+      //convert the transaction packet items into interface signals
+      vinf.write_en = trans.write_en;
+      vinf.read_en = trans.read_en;
+      vinf.data_in = trans.data_in;
 
       trans.display_in("[ --Driver-- ]");
-      
-      // @(posedge vinf.clk);
       num_transactions++;
-      end
+    end
     end
   endtask
   

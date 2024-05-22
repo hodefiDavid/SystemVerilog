@@ -18,21 +18,50 @@ class monitor_out;
   endfunction
   
   //Samples the interface signal and sends the sampled packet to scoreboard
+  // task main;
+  //   forever begin
+  //     transaction trans;
+  //     trans = new();
+  //     @(posedge vinf.clk)
+
+  //     trans.data_out = vinf.data_out;
+  //     trans.full = vinf.full; 
+  //     trans.empty = vinf.empty; 
+      
+  //     trans.display_out("[ --Monitor_out-- ]");
+  //     @(negedge vinf.clk);
+  //     mon2scbout.put(trans);
+
+  //   end
+  // endtask
+  
+
+
+  //Samples the interface signal and sends the sampled packet to scoreboard
   task main;
     forever begin
       transaction trans;
       trans = new();
-      @(negedge vinf.clk);
-
+      //data in capture from the interface/driver counter 8 bit
+      @(posedge vinf.clk)
       trans.data_out = vinf.data_out;
       trans.full = vinf.full; 
       trans.empty = vinf.empty; 
-      
-      trans.display_out("[ --Monitor_out-- ]");
+
+      fork begin
+      //data in capture from the interface/dut counter 8 bit
+      // @(negedge vinf.clk) 
+      @(posedge vinf.clk)
+         trans.read_en = vinf.read_en;
+        trans.write_en = vinf.write_en;
+        trans.data_in  = vinf.data_in;
+
       mon2scbout.put(trans);
-      @(posedge vinf.clk);
+
+      trans.display("[ --Monitor-- ]");
+      end join_none 
 
     end
   endtask
-  
-endclass
+
+  endclass
